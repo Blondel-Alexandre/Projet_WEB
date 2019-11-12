@@ -1,0 +1,55 @@
+html, body {
+    background-color: white;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0px;
+}
+
+.navbar-light{
+    background-color: chocolate;
+}
+
+a.nav-link {
+    background-color: white;
+}
+
+.active{
+    cursor: pointer;
+}
+.full-height {
+    height: 0px;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.cesientreprise{
+    zoom: 0.2;
+}
+
+.bde{
+    zoom: 0.2;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+.social{
+    fa-twitter-square: blue;
+}
+
