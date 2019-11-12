@@ -20,51 +20,53 @@
 </head>
 <body>
 
-        @yield('contenu')
+@yield('contenu')
 
 
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <a class="navbar-brand" href="#"><img class="cesi" src="pictures/cesientreprise.png"/> </a>
-            <img class="bde" src="pictures/bdeexia3.png"/>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+<nav class="navbar navbar-expand-lg navbar-light ">
+    <a class="navbar-brand" href="#"><img class="cesi" src="pictures/cesientreprise.png"/> </a>
+    <img class="bde" src="pictures/bdeexia3.png"/>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Evènement</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Campus
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Arras</a>
-                            <a class="dropdown-item" href="#">Rouen</a>
-                            <a class="dropdown-item" href="#">Strasbourg</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Autre campus</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                    <li class="social">
-                    <i class="fab fa-twitter-square"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-youtube-square"></i>
-                    <i class="fab fa-linkedin"></i>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
-        </nav>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Evènement</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Boutique</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Campus
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Arras</a>
+                    <a class="dropdown-item" href="#">Rouen</a>
+                    <a class="dropdown-item" href="#">Strasbourg</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Autre campus</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+            <ul class="social">
+                <a href="#" class="reseaux facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="reseaux twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="reseaux instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="reseaux youtube"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="reseaux linkedin"><i class="fab fa-linkedin"></i></a>
+
+            </ul>
+        </ul>
+        <button type="button" class="connexion btn btn-connexion">Connexion</button>
+    </div>
+</nav>
 </body>
 </html>

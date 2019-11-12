@@ -8,7 +8,7 @@ html, body {
 }
 
 .navbar-light{
-    background-color: chocolate;
+    background-color: black;
 }
 
 a.nav-link {
@@ -49,7 +49,63 @@ a.nav-link {
 .m-b-md {
     margin-bottom: 30px;
 }
-.social{
-    fa-twitter-square: blue;
+
+.reseaux{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    color: #ffff;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 26px;
+    margin: 10px;
+}
+.facebook{
+    background-color: #4267b2;
+}
+.facebook:hover{
+    color: #4267b2;
+    background-color: white;
+}
+.twitter{
+    background-color: #38A1F3;
+}
+.twitter:hover{
+    color: #38A1F3;
+    background-color: white;
+}
+.instagram{
+    background-color: #C13584;
+}
+.instagram:hover{
+    color: #C13584;
+    background-color: white;
+}
+.youtube{
+    background-color: #ED3833;
+}
+.youtube:hover{
+    color: #ED3833;
+    background-color: white;
+}
+.linkedin{
+    background-color: #0077B5;
+}
+.linkedin:hover{
+    color: #0077B5;
+    background-color: white;
 }
 
+.connexion {
+    margin-right: 10px;
+    color: red;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 30px;
+    background-color: yellow;
+}
+.connexion:hover {
+    color: black;
+    background-color: red;
+}
