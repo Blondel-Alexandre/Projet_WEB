@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/event', function () {
+    return view('event');
+});
+
+Route::get('/signin', function () {
+    return view('signin');
+});
+
+Route::get('/signup', function () {
+    return view('signup');
+});

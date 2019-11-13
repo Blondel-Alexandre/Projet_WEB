@@ -16,7 +16,9 @@ server.get('/',function (req, res) {
     res.status(200).send('<h1>Bonjour sur mon </h1>');
 });
 
+
 server.use('/api/', apiRouter);
+
 
 //Lauch server
 server.listen(8080, function () {

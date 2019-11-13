@@ -1,56 +1,53 @@
 'use strict';
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable('Activities', {
+    return queryInterface.createTable('People', {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      Name_Activity: {
+      Name_Personne: {
         allowNull: false,
         type: Sequelize.STRING
       },
-      Date_Activity: {
-        allowNull: false,
-        type: Sequelize.DATE
-      },
-      Description_Activity: {
+      First_Name_Person: {
         allowNull: false,
         type: Sequelize.STRING
       },
-      Price_Activity: {
-        allowNull: false,
-        type: Sequelize.BOOLEAN
-      },
-      Location_Activity: {
+      Location_Person: {
         allowNull: false,
         type: Sequelize.STRING
       },
-      Status_Activity: {
+      Email_address: {
         allowNull: false,
         type: Sequelize.STRING
       },
-      Regularity: {
+      Password: {
         allowNull: false,
         type: Sequelize.STRING
       },
-      Public_Activity: {
+      Status_Person: {
         allowNull: false,
-        type: Sequelize.BOOLEAN
+        type: Sequelize.STRING
       },
-      createdAt: {
+      Profile: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.STRING
       },
-      updatedAt: {
+      Id_Basket: {
         allowNull: false,
-        type: Sequelize.DATE
-      }
+        type: Sequelize.INTEGER ,
+        reference :{
+          model: 'Baskets',
+          key: 'id'
+        }
+      },
+
     });
   },
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable('Activities');
+    return queryInterface.dropTable('People');
   }
 };

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ygopro_vs_links_beta/expansions/live2017links" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ygopro_vs_links_beta/expansions/liveanimelinks" vcs="Git" />
   </component>

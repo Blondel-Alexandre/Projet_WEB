@@ -12,17 +12,18 @@ module.exports = {
         allowNull: false,
         type: Sequelize.DATE
       },
-      Status_Basket: {
+      Status: {
         allowNull: false,
         type: Sequelize.BOOLEAN
       },
-      createdAt: {
+      Id_Person: {
         allowNull: false,
-        type: Sequelize.DATE
-      },
-      updatedAt: {
-        allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.INTEGER,
+        references: {
+          model: 'People',
+          key: 'id',
+
+        },
       }
     });
   },
