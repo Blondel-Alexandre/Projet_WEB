@@ -1,7 +1,6 @@
 @extends ('Layout')
-@section ('contenu')
 
-    <style>
+<style>
         form {
             /* Uniquement centrer le formulaire sur la page */
             margin: 0 auto;
@@ -27,7 +26,15 @@
             margin-left: .5em;
         }
 
+        .a {
+            text-decoration:none;
+            style="color:#FF0000;"
+        }
+
     </style>
+
+
+@section ('contenu')
 
 
     <body>
@@ -44,6 +51,7 @@
 
         <div class="button">
             <button type="submit">Connection</button>
+            <a href="signUp.blade.php">S'inscrire !</a>
         </div>
 
     </form>
