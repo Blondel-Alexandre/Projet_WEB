@@ -1,11 +1,20 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
   const Register = sequelize.define('Register', {
-    test: DataTypes.STRING
+    Id_Activity: DataTypes.INTEGER,
+    Id_Person: DataTypes.INTEGER
   }, {});
   Register.associate = function(models) {
-    models.Register.hasMany(models.Activity);
-    models.Register.hasMany(models.Person);
+    models.Consult.belongsTo(models.Activity,{
+      foreignKey:{
+        allowNull: false
+      }
+    });
+    models.Consult.belongsTo(models.Person,{
+      foreignKey:{
+        allowNull: false
+      }
+    })
   };
   return Register;
 };
