@@ -6,10 +6,11 @@ module.exports = (sequelize, DataTypes) => {
     Appreciation: DataTypes.STRING,
     Like_Comment: DataTypes.BOOLEAN,
     Public_Comment: DataTypes.BOOLEAN,
-    Ref_Comment: DataTypes.INTEGER
+    Ref_Comment: DataTypes.INTEGER,
+    Id_Person: DataTypes.INTEGER
   }, {});
   Comment.associate = function(models) {
-    models.Comment.hasMany(models.Person);
+    models.Comment.belongsTo(models.Person)
   };
   return Comment;
 };

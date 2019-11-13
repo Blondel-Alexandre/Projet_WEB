@@ -1,57 +1,53 @@
 'use strict';
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable('Activity', {
+    return queryInterface.createTable('People', {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      Id_Activity:{
+      Name_Personne: {
         allowNull: false,
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING
+      },
+      First_Name_Person: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      Location_Person: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      Email_address: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      Password: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      Status_Person: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      Profile: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      Id_Basket: {
+        allowNull: false,
+        type: Sequelize.INTEGER ,
         reference :{
-          model:'Activity',
+          model: 'Baskets',
           key: 'id'
         }
-      },
-      Name_Activity: {
-        allowNull: false,
-        type: Sequelize.STRING
-      },
-      Date_Activity: {
-        allowNull: false,
-        type: Sequelize.DATE
-      },
-      Description_Activity: {
-        allowNull: false,
-        type: Sequelize.STRING
-      },
-      Price_Activity: {
-        allowNull: false,
-        type: Sequelize.BOOLEAN
-      },
-      Location_Activity: {
-        allowNull: false,
-        type: Sequelize.STRING
-      },
-      Status_Activity: {
-        allowNull: false,
-        type: Sequelize.STRING
-      },
-      Regularity: {
-        allowNull: false,
-        type: Sequelize.STRING
-      },
-      Public_Activity: {
-        allowNull: false,
-        type: Sequelize.BOOLEAN
       },
 
     });
   },
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable('Activity');
+    return queryInterface.dropTable('People');
   }
 };

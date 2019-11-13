@@ -1,11 +1,13 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
   const Consult = sequelize.define('Consult', {
-    test: DataTypes.STRING
+    Id_Activity: DataTypes.INTEGER,
+    Id_Person: DataTypes.INTEGER
   }, {});
   Consult.associate = function(models) {
-    models.Consult.hasMany(models.Person);
-    models.Consult.hasMany(models.Activity);
+
+     models.Consult.belongsTo(models.Activity);
+    models.Consult.belongsTo(models.Person)
   };
   return Consult;
 };

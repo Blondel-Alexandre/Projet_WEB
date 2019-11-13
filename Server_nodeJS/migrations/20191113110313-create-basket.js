@@ -1,33 +1,33 @@
 'use strict';
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable('Basket', {
+    return queryInterface.createTable('Baskets', {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      Id_Basket:{
-        allowNull: false,
-        type: Sequelize.INTEGER,
-        reference :{
-          model:'Basket',
-          key: 'id'
-        }
-      },
       Date_Basket: {
         allowNull: false,
         type: Sequelize.DATE
       },
-      Status_Basket: {
+      Status: {
         allowNull: false,
         type: Sequelize.BOOLEAN
       },
+      Id_Person: {
+        allowNull: false,
+        type: Sequelize.INTEGER,
+        references: {
+          model: 'People',
+          key: 'id',
 
+        },
+      }
     });
   },
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable('Basket');
+    return queryInterface.dropTable('Baskets');
   }
 };

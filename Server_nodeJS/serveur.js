@@ -11,6 +11,7 @@ server.get('/',function (req, res) {
     res.status(200).send('<h1>Bonjour sur mon serveur</h1>');
 });
 
+
 //Lauch server
 server.listen(8000, function () {
     console.log('Server en écoute');
