@@ -13,12 +13,12 @@ server.use(bodyParser.json());
 //configure routes
 server.get('/',function (req, res) {
     res.setHeader('Content-Type','text/html');
-    res.status(200).send('<h1>Bonjour sur mon serveur</h1>');
+    res.status(200).send('<h1>Bonjour sur mon </h1>');
 });
 
 server.use('/api/', apiRouter);
 
 //Lauch server
-server.listen(8000, function () {
-    console.log('Server en écoute');
+server.listen(8080, function () {
+    console.log('J\'écoute');
 });
