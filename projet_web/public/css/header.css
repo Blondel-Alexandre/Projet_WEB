@@ -123,11 +123,6 @@ a.nav-link {
     color: white;
 }
 
-.mention_legal:hover{
-    color: purple;
-    background-color: blue;
-}
-
 .contact{
     margin-left: 10%;
     color: white;

@@ -20,9 +20,6 @@
 </head>
 <body>
 
-@yield('contenu')
-
-
 <nav class="navbar navbar-expand-lg navbar-light ">
     <a class="navbar-brand" href="#"><img class="cesi" src="pictures/cesientreprise.png"/> </a>
     <img class="bde" src="pictures/bdeexia3.png"/>
@@ -62,14 +59,13 @@
                 <a href="#" class="reseaux instagram"><i class="fab fa-instagram"></i></a>
                 <a href="#" class="reseaux youtube"><i class="fab fa-youtube"></i></a>
                 <a href="#" class="reseaux linkedin"><i class="fab fa-linkedin"></i></a>
-
             </ul>
         </ul>
         <button type="button" class="connexion btn btn-connexion">Connexion</button>
     </div>
 </nav>
 
-<!-- @yield('contenu') -->
+@yield('contenu')
 
 <nav class="footer">
     <a class="mention_legal" href="#">mention legal</a>
