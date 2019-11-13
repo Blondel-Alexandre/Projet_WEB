@@ -35,3 +35,34 @@ h1{
     justify-content: flex-end;
     align-items: start;
 }
+#vente3 {
+    position: relative;
+    zoom: 0.2;
+    font-size: 80px;
+    display: flex;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.motcle2{
+    font-size: 120px;
+    text-align: right;
+}
+#vente4 {
+    position: relative;
+    zoom: 0.2;
+    font-size: 80px;
+    display: flex;
+    background-color: white;
+    margin-top: 10px;
+    direction: rtl;
+    margin-right: 100px;
+}
+.mot{
+    height: 100%;
+    display:flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: start;
+}
