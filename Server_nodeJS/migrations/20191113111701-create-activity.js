@@ -1,48 +1,56 @@
 'use strict';
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable('Comments', {
+    return queryInterface.createTable('Activities', {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      Date_Comment: {
-        allowNull: false,
-        type: Sequelize.DATE
-      },
-      Author_Comment: {
+      Name_Activity: {
         allowNull: false,
         type: Sequelize.STRING
       },
-      Appreciation: {
+      Date_Activity: {
         allowNull: false,
         type: Sequelize.STRING
       },
-      Like_Comment: {
+      Description_Activity: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      Price_Activity: {
         allowNull: false,
         type: Sequelize.BOOLEAN
       },
-      Public_Comment: {
+      Location_Activity: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      Status_Activity: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      Regularity: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      Public_Activity: {
         allowNull: false,
         type: Sequelize.BOOLEAN
       },
-      Ref_Comment: {
+      Id_Person: {
         allowNull: false,
-        type: Sequelize.INTEGER
-      },
-      createdAt: {
-        allowNull: false,
-        type: Sequelize.DATE
-      },
-      updatedAt: {
-        allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.INTEGER ,
+        references: {
+          model: 'People',
+          key: 'id',
+        },
       }
     });
   },
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable('Comments');
+    return queryInterface.dropTable('Activities');
   }
 };
