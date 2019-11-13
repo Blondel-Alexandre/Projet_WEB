@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-@extends ('Layout')
-=======
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
@@ -101,4 +98,3 @@ button {
 
     </form>
 </body>
->>>>>>> 7c352c3a13b52d5cd5ae543802497043acc1f2a6
