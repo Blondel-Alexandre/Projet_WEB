@@ -8,6 +8,19 @@ module.exports = (sequelize, DataTypes) => {
   }, {});
   Product.associate = function(models) {
     models.Product.hasMany(models.Person);
+
+
+    models.Product.belongsTo(models.Contain,{
+      foreignKey: {
+        allowNull: false
+      }
+    })
+
+    models.Product.belongsTo(models.Have,{
+      foreignKey: {
+        allowNull: false
+      }
+    })
   };
   return Product;
 };

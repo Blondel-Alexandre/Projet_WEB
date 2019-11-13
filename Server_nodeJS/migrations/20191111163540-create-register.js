@@ -1,11 +1,11 @@
 'use strict';
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable('Registers', {
+    return queryInterface.createTable('Register', {
 
     });
   },
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable('Registers');
+    return queryInterface.dropTable('Register');
   }
 };

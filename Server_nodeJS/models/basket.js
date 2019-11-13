@@ -6,6 +6,19 @@ module.exports = (sequelize, DataTypes) => {
   }, {});
   Basket.associate = function(models) {
     models.Basket.hasMany(models.Person);
+
+
+    models.Basket.belongsTo(models.Person,{
+      foreignKey: {
+        allowNull: false
+      }
+    })
+
+    models.Basket.belongsTo(models.Contain,{
+      foreignKey: {
+        allowNull: false
+      }
+    })
   };
   return Basket;
 };

@@ -12,6 +12,19 @@ module.exports = (sequelize, DataTypes) => {
   }, {});
   Activity.associate = function(models) {
     models.Activity.hasMany(models.Person);
+
+
+    models.Activity.belongsTo(models.Regiter,{
+      foreignKey: {
+        allowNull: false
+      }
+    })
+
+    models.Activity.belongsTo(models.Consult,{
+      foreignKey: {
+        allowNull: false
+      }
+    })
   };
   return Activity;
 };

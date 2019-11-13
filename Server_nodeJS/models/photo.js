@@ -9,6 +9,12 @@ module.exports = (sequelize, DataTypes) => {
   }, {});
   Photo.associate = function(models) {
     models.Photo.hasMany(models.Person);
+
+    models.Photo.belongsTo(models.Have,{
+      foreignKey: {
+        allowNull: false
+      }
+    })
   };
   return Photo;
 };
