@@ -98,11 +98,3 @@ button {
 
     </form>
 </body>
-
-<?php 
-    $password = $_POST['password'];
-
-    if (strlen($password) < 6) {
-        echo "Mot de passe trop court !";
-    }
-?>
