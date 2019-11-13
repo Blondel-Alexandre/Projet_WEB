@@ -68,5 +68,13 @@
         <button type="button" class="connexion btn btn-connexion">Connexion</button>
     </div>
 </nav>
+
+<!-- @yield('contenu') -->
+
+<nav class="footer">
+    <a class="mention_legal" href="#">mention legal</a>
+    <a class="contact" href="#">contact</a>
+
+
 </body>
 </html>
