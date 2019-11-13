@@ -62,7 +62,6 @@
                 <a href="#" class="reseaux instagram"><i class="fab fa-instagram"></i></a>
                 <a href="#" class="reseaux youtube"><i class="fab fa-youtube"></i></a>
                 <a href="#" class="reseaux linkedin"><i class="fab fa-linkedin"></i></a>
-
             </ul>
         </ul>
         <button type="button" class="connexion btn btn-connexion">Connexion</button>
