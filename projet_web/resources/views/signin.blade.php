@@ -12,12 +12,20 @@
             border-radius: 1em;
         }
 
+        label {
+         /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+            display: inline-block;
+            width: 400px;
+            text-align: left;
+            padding: 0px 0px 5px 0px;
+        }
+
         form div + div {
             margin-top: 1em;
         }
 
         input {
-            padding-left: 140px;
+            padding-left: 10px;
         }
 
         .button {
@@ -46,7 +54,7 @@
 
         <div>
             <label for="password">Mot de passe :</label>
-            <input type="text" id="password" name="user_password">
+            <input type="password" id="password" name="user_password">
         </div>
 
         <div class="button">
