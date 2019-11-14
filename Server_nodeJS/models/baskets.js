@@ -6,7 +6,6 @@ module.exports = (sequelize, DataTypes) => {
     id_users: DataTypes.INTEGER
   }, {});
   baskets.associate = function(models) {
-    models.baskets.hasMany(models.users);
     models.baskets.hasMany(models.contains);
     models.baskets.belongsTo(models.users)
   };

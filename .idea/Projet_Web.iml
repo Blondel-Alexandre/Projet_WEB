@@ -18,6 +18,9 @@
       <excludeFolder url="file://$MODULE_DIR$/projet_web/vendor/fideloper/proxy" />
       <excludeFolder url="file://$MODULE_DIR$/projet_web/vendor/filp/whoops" />
       <excludeFolder url="file://$MODULE_DIR$/projet_web/vendor/fzaninotto/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/projet_web/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/projet_web/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/projet_web/vendor/guzzlehttp/psr7" />
       <excludeFolder url="file://$MODULE_DIR$/projet_web/vendor/hamcrest/hamcrest-php" />
       <excludeFolder url="file://$MODULE_DIR$/projet_web/vendor/jakub-onderka/php-console-color" />
       <excludeFolder url="file://$MODULE_DIR$/projet_web/vendor/jakub-onderka/php-console-highlighter" />
@@ -46,9 +49,11 @@
       <excludeFolder url="file://$MODULE_DIR$/projet_web/vendor/phpunit/php-token-stream" />
       <excludeFolder url="file://$MODULE_DIR$/projet_web/vendor/phpunit/phpunit" />
       <excludeFolder url="file://$MODULE_DIR$/projet_web/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/projet_web/vendor/psr/http-message" />
       <excludeFolder url="file://$MODULE_DIR$/projet_web/vendor/psr/log" />
       <excludeFolder url="file://$MODULE_DIR$/projet_web/vendor/psr/simple-cache" />
       <excludeFolder url="file://$MODULE_DIR$/projet_web/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/projet_web/vendor/ralouphie/getallheaders" />
       <excludeFolder url="file://$MODULE_DIR$/projet_web/vendor/ramsey/uuid" />
       <excludeFolder url="file://$MODULE_DIR$/projet_web/vendor/scrivo/highlight.php" />
       <excludeFolder url="file://$MODULE_DIR$/projet_web/vendor/sebastian/code-unit-reverse-lookup" />
