@@ -10,7 +10,7 @@ html, body {
 
 .navbar{
     background-color: black;
-    position: fixed;
+    position: static;
     width: 100%;
     top: 0%;
     z-index: 1;
@@ -105,11 +105,6 @@ a.nav-link {
     background-color: red;
 }
 
-<<<<<<< HEAD
-.footer {
-    position: absolute;
-=======
-
 main{
     margin-top: 12%;
     margin-bottom: 5%;
@@ -117,8 +112,7 @@ main{
 
 
 footer {
-    position: fixed;
->>>>>>> bfe1d0d1206ec9361f39f2f38a62026777edb07d
+    position: static;
     width: 100%;
     height: 30px;
     bottom: 0;
