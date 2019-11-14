@@ -78,3 +78,13 @@ h1{
 .like:hover{
     color: blue;
 }
+
+.inscription{
+    position: relative;
+    font-size: 80px;
+    display: flex;
+    direction: rtl;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-left: 1200px;
+}
