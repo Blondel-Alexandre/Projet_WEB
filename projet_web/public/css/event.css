@@ -4,7 +4,7 @@ h1{
 .motcle{
     font-size: 120px;
 }
-#vente1 {
+#event1 {
     position: relative;
     zoom: 0.2;
     font-size: 80px;
@@ -18,7 +18,7 @@ h1{
     font-size: 120px;
     text-align: right;
 }
-#vente2 {
+#event2 {
     position: relative;
     zoom: 0.2;
     font-size: 80px;
@@ -34,4 +34,47 @@ h1{
     flex-flow: column;
     justify-content: flex-end;
     align-items: start;
+}
+#event3 {
+    position: relative;
+    zoom: 0.2;
+    font-size: 80px;
+    display: flex;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.motcle2{
+    font-size: 120px;
+    text-align: right;
+}
+#event4 {
+    position: relative;
+    zoom: 0.2;
+    font-size: 80px;
+    display: flex;
+    background-color: white;
+    margin-top: 10px;
+    direction: rtl;
+    margin-right: 100px;
+}
+.mot{
+    height: 100%;
+    display:flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: start;
+}
+
+.like{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    color: black;
+    border-radius: 20px;
+    margin: 10px;
+}
+.like:hover{
+    color: blue;
 }

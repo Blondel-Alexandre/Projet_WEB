@@ -7,6 +7,7 @@
 form {
     /* Uniquement centrer le formulaire sur la page */
     margin: 0 auto;
+    margin-top: 2px;
     width: 400px;
     /* Encadré pour voir les limites du formulaire */
     padding: 1em;
@@ -23,6 +24,7 @@ label {
     display: inline-block;
     width: 400px;
     text-align: left;
+    padding: 0px 0px 5px 0px;
   }
 
 input:focus, textarea:focus {
@@ -55,15 +57,12 @@ button {
 
         <div>
             <label for="localisation">Centre CESI :</label>
-
-            <label for="loca_choice_Arras">Arras</label>
-            <input type="radio" id="loca_choice_Arras" name="user_localisation">
-
-            <label for="loca_choice_Lille">Lille</label>
-            <input type="radio" id="loca_choice_Arras" name="user_localisation">
-
-            <label for="loca_choice_Rouen">Rouen</label>
-            <input type="radio" id="loca_choice_Rouen" name="user_localisation">
+            
+            <SELECT name="localisation" size="1">
+                <OPTION>Arras
+                <OPTION>Lille
+                <OPTION>Rouen
+            </SELECT>
         </div>
 
         <div>
@@ -74,6 +73,10 @@ button {
         <div>
             <label for="password">Mot de passe (Contenant 1 Maj, 1 Min, 1 Chiffre minimum ) :</label>
             <input type="text" id="password" name="user_password">
+        </div>
+
+        <div>
+        
         </div>
 
         <div class="button">

@@ -1,0 +1,52 @@
+h1{
+    background-color: red;
+    position: relative;
+}
+.motcle{
+    font-size: 120px;
+}
+#vente1 {
+    position: relative;
+    zoom: 0.2;
+    font-size: 80px;
+    display: flex;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+#vente2 {
+    position: relative;
+    zoom: 0.2;
+    font-size: 80px;
+    display: flex;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+#vente3 {
+    position: relative;
+    zoom: 0.2;
+    font-size: 80px;
+    display: flex;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+#vente4 {
+    position: relative;
+    zoom: 0.2;
+    font-size: 80px;
+    display: flex;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+nav{
+    background-color: red;
+}
+.form-inline{
+    background-color: green;
+}
