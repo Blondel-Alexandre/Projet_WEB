@@ -17,8 +17,7 @@ module.exports = (sequelize, DataTypes) => {
     models.users.hasMany(models.consults);
     models.users.hasMany(models.activities);
     models.users.hasMany(models.products);
-    models.users.hasMany(models.photos);
-    models.users.belongsTo(models.baskets)
+    models.users.hasMany(models.photos)
   };
   return users;
 };

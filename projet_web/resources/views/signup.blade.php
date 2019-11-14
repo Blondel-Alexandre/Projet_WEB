@@ -6,7 +6,7 @@
 
 
 
-    <form action="" method="post">
+    <form action="/api/add" method="post">
         <div>
             <label for="name">Nom :</label>
             <input type="text" id="name" name="user_name">
@@ -46,6 +46,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
 
         <div class="button">
