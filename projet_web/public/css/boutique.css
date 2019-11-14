@@ -3,59 +3,25 @@ h1{
     position: relative;
 }
 .motcle{
-    font-size: 120px;
+    font-size: 20vw;;
 }
-#vente1 {
+#vente {
     position: relative;
     zoom: 0.2;
-    font-size: 80px;
+    font-size: 10vw;
     display: flex;
     background-color: white;
     margin-top: 10px;
     margin-left: 100px;
 }
 
-#vente2 {
-    position: relative;
-    zoom: 0.2;
-    font-size: 80px;
-    display: flex;
-    background-color: white;
-    margin-top: 10px;
-    margin-left: 100px;
+form button {
+    color: white;
 }
 
-#vente3 {
-    position: relative;
-    zoom: 0.2;
-    font-size: 80px;
-    display: flex;
-    background-color: white;
-    margin-top: 10px;
-    margin-left: 100px;
-}
-
-#vente4 {
-    position: relative;
-    zoom: 0.2;
-    font-size: 80px;
-    display: flex;
-    background-color: white;
-    margin-top: 10px;
-    margin-left: 100px;
-}
-h1{
+nav{
     background-color: red;
 }
-
 .form-inline{
-    margin-left: 100px;
-    margin-bottom: 10px;
-}
-
-.fas{
-    color: black;
-    border-radius: 6px;
-    font-size: 180%;
-    margin-left: 30px;
+    background-color: green;
 }
