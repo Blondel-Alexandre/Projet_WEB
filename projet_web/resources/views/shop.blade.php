@@ -1,19 +1,14 @@
- @extends('Layout')
- <link href="{{asset('css/boutique.css')}}" rel="stylesheet" />
+@extends('Layout')
+<link href="{{asset('css/boutique.css')}}" rel="stylesheet" />
 
 @section ('contenu')
     <nav>
         <h1>boutique</h1>
+
         <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Arras</a>
-                <a class="dropdown-item" href="#">Rouen</a>
-                <a class="dropdown-item" href="#">Strasbourg</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Autre campus</a>
-            </div>
+            <a class="backet" href="backet" ><i class="fas fa-shopping-basket"></i></a>
         </form>
 
     </nav>
