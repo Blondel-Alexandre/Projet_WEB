@@ -1,46 +1,6 @@
 @extends ('Layout')
 
-<style>
-        form {
-            /* Uniquement centrer le formulaire sur la page */
-            margin: 0 auto;
-            margin-top: 20px;
-            width: 400px;
-            /* Encadré pour voir les limites du formulaire */
-            padding: 1em;
-            border: 1px solid #CCC;
-            border-radius: 1em;
-        }
-
-        label {
-         /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
-            display: inline-block;
-            width: 400px;
-            text-align: left;
-            padding: 0px 0px 5px 0px;
-        }
-
-        form div + div {
-            margin-top: 1em;
-        }
-
-        input {
-            padding-left: 10px;
-        }
-
-        .button {
-            /* Pour placer le bouton à la même position que les champs texte */
-            padding-left: 90px; /* même taille que les étiquettes */
-            margin-left: .5em;
-        }
-
-        .a {
-            text-decoration:none;
-            style="color:#FF0000;"
-        }
-
-    </style>
-
+<link href="{{asset('css/styleSignIn.css')}}" rel="stylesheet" />
 
 @section ('contenu')
 
@@ -59,7 +19,7 @@
 
         <div class="button">
             <button type="submit">Connection</button>
-            <a href="signUp.blade.php">S'inscrire !</a>
+            <a href="signUp">S'inscrire !</a>
         </div>
 
     </form>

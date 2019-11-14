@@ -15,8 +15,11 @@
     <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" rel="stylesheet">
     <!-- Styles -->
 </head>
+
 <body>
-<header
+
+<header>
+
 <nav class="navbar navbar-expand-lg navbar-light ">
     <a class="navbar-brand" href="https://www.cesi.fr/"><img class="cesi" src="pictures/cesientreprise.png"/> </a>
     <img class="bde" src="pictures/bdeexia3.png"/>
