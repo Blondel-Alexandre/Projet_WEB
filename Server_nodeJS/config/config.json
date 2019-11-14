@@ -2,25 +2,22 @@
   "development": {
     "username": "root",
     "password": "",
-    "database": "projet_web_dev",
-    "host": "localhost",
-    "operatorsAliases": false,
-    "port": "3306"
+    "database": "testProjet_dev",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
   },
   "test": {
     "username": "root",
     "password": "",
-    "database": "projet_web_test",
-    "host": "localhost",
-    "operatorsAliases": false,
-    "port": "3306"
+    "database": "testProjet_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
   },
   "production": {
     "username": "root",
     "password": "",
-    "database": "localhost",
+    "database": "testProjet",
     "host": "127.0.0.1",
-    "operatorsAliases": false,
-    "port": "3306"
+    "dialect": "mysql"
   }
 }
