@@ -58,6 +58,8 @@
                 <a href="https://twitter.com/BDE_Exia_Arras" class="reseaux twitter"><i class="fab fa-twitter"></i></a>
                 <a href="https://www.youtube.com/user/groupecesi1" class="reseaux youtube"><i class="fab fa-youtube"></i></a>
                 <a href="https://www.linkedin.com/school/cesiecoledingenieurs/" class="reseaux linkedin"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/campus_cesi/?hl=fr" class="reseaux instagram"><i class="fab fa-instagram"></i></a>
+
 
             </ul>
         </ul>
