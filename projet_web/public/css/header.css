@@ -5,10 +5,15 @@ html, body {
     font-weight: 200;
     height: 100vh;
     margin: 0px;
+    position: relative;
 }
 
-.navbar-light{
+.navbar{
     background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    z-index: 1;
 }
 
 a.nav-link {
@@ -28,18 +33,8 @@ a.nav-link {
     justify-content: center;
 }
 
-.position-ref {
-    position: relative;
-}
-
-.top-right {
-    position: absolute;
-    right: 10px;
-    top: 18px;
-}
-
-.cesientreprise{
-    zoom: 0.2;
+.cesi{
+    zoom: 0.9;
 }
 
 .bde{
@@ -109,11 +104,18 @@ a.nav-link {
     color: black;
     background-color: red;
 }
+
+
+main{
+    margin-top: 12%;
+    margin-bottom: 5%;
 }
-.footer {
-    position: absolute;
+
+
+footer {
+    position: fixed;
     width: 100%;
-    height: 40px;
+    height: 30px;
     bottom: 0;
     background-color: black;
 }
