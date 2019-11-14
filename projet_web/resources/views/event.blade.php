@@ -6,7 +6,7 @@
     <h1>Evènement</h1>
 
     <div id="eventpast">
-        <img src="pictures/event1.png" class="responsive" />
+        <img src="pictures/event1.png" width="626" height="469" class="responsive" />
         <p><a class="keypast" href="linkeventpast1"> event 1 passé </a>
             </br>
             <span
@@ -17,7 +17,7 @@
     </div>
     <hr>
     <div id="eventfuture">
-        <img src="pictures/event1.png" class="responsive" />
+        <img src="pictures/event1.png" width="626" height="469" class="responsive" />  
         <p class="mot">
             <a
                 class="keyfuture" href="linkeventfutur1"> event 1 futur
@@ -29,7 +29,7 @@
     </div>
     <hr>
     <div id="eventpast">
-        <img src="pictures/event1.png" class="responsive" />
+        <img src="pictures/event1.png" width="626" height="469" class="responsive" />
         <p>
             <a
                 class="keypast" href="linkeventpast2"> event 2 passé
@@ -43,7 +43,7 @@
     </div>
     <hr>
     <div id="eventfuture">
-        <img src="pictures/event1.png" class="responsive" />
+        <img src="pictures/event1.png" width="626" height="469" class="responsive" />
         <p class="mot">
             <a
                 class="keyfuture" href="linkeventfutur2"> event 2 futur
