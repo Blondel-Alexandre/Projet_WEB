@@ -6,7 +6,7 @@
 
 
 
-    <form action="" method="post">
+    <form action="/api/add" method="post">
         <div>
             <label for="name">Nom :</label>
             <input type="text" id="name" name="user_name">
@@ -19,7 +19,7 @@
 
         <div>
             <label for="localisation">Centre CESI :</label>
-            
+
             <SELECT name="localisation" size="1">
                 <OPTION>Arras
                 <OPTION>Lille
@@ -38,7 +38,7 @@
         </div>
 
         <div>
-        
+
         </div>
 
         <div class="button">
