@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,14 +14,11 @@
     <link href="{{asset('css/header.css')}}" rel="stylesheet" />
     <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" rel="stylesheet">
     <!-- Styles -->
-
-
-
 </head>
 <body>
-
+<header
 <nav class="navbar navbar-expand-lg navbar-light ">
-    <a class="navbar-brand" href="#"><img class="cesi" src="pictures/cesientreprise.png"/> </a>
+    <a class="navbar-brand" href="https://www.cesi.fr/"><img class="cesi" src="pictures/cesientreprise.png"/> </a>
     <img class="bde" src="pictures/bdeexia3.png"/>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,13 +27,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/">Accueil <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Evènement</a>
+                <a class="nav-link" href="/event">Evènement</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Boutique</a>
+                <a class="nav-link" href="/shop">Boutique</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -54,23 +51,27 @@
                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
             </li>
             <ul class="social">
-                <a href="#" class="reseaux facebook"><i class="fab fa-facebook"></i></a>
-                <a href="#" class="reseaux twitter"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="reseaux instagram"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="reseaux youtube"><i class="fab fa-youtube"></i></a>
-                <a href="#" class="reseaux linkedin"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/BDECESIARRAS?__tn__=%2CdlC-R-R&eid=ARB0nX-9op5-hAKXV-tAay18Hyr0rs_HPKCWr8WO1C8lWWsVumTpKI3m8mjfFQCzaOx-FclHSb3zFcpQ&hc_ref=ARRwFbSrdyg_kbD5oBfDPVrjR1y6hXwcNiJwsuVy6vP8zVfMPNcVMFS6gW_8s6M6h-c" class="reseaux facebook"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/BDE_Exia_Arras" class="reseaux twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/user/groupecesi1" class="reseaux youtube"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.linkedin.com/school/cesiecoledingenieurs/" class="reseaux linkedin"><i class="fab fa-linkedin"></i></a>
+
             </ul>
         </ul>
-        <button type="button" class="connexion btn btn-connexion">Connexion</button>
+        <a href="/signin" class="connexion btn btn-connexion">Connexion</a>
     </div>
 </nav>
+</header>
 
-@yield('contenu')
+<main>
 
-<nav class="footer">
-    <a class="mention_legal" href="#">mention legal</a>
-    <a class="contact" href="#">contact</a>
+    @yield('contenu')
+</main>
 
+<footer class="footer">
+    <a class="mention_legal" href="/legalmention">mention legal</a>
+    <a class="contact" href="/contact">contact</a>
 
+</footer>
 </body>
 </html>

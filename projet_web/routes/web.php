@@ -26,3 +26,19 @@ Route::get('/signin', function () {
 Route::get('/signup', function () {
     return view('signup');
 });
+
+Route::get('/shop', function () {
+    return view('shop');
+});
+
+Route::get('/legalmention', function () {
+    return view('legalmention');
+});
+
+Route::get('/link1shop', function () {
+    return view('link1shop');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
