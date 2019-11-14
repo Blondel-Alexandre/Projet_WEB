@@ -2,7 +2,7 @@
 
 <link href="{{asset('css/styleSignUp.css')}}" rel="stylesheet" />
 
-    @section('contenu')
+@section('contenu')
 
 
 
@@ -38,6 +38,14 @@
         </div>
 
         <div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <input required="required" type="checkbox" aria-label="Checkbox for following text input">
+                        <a href="/cgv">Condition générale de vente (CGV)</a>
+                    </div>
+                </div>
+            </div>
 
         </div>
 

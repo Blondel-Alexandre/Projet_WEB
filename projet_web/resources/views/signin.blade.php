@@ -20,7 +20,7 @@
         <div class="button">
             <button type="submit">Connection</button>
             <a href="signUp">S'inscrire !</a>
-            <a href="">Mentions légales</a>
+            <a href="/legalmention">Mentions légales</a>
         </div>
 
     </form>
