@@ -1,27 +1,27 @@
 h1{
     background-color: red;
 }
-.motcle{
-    font-size: 120px;
+.keypast{
+    font-size: 20vw;
 }
-#event1 {
+#eventpast {
     position: relative;
     zoom: 0.2;
-    font-size: 80px;
+    font-size: 10vw;
     display: flex;
     background-color: white;
     margin-top: 10px;
     margin-left: 100px;
 }
 
-.motcle2{
-    font-size: 120px;
+.keyfuture{
+    font-size: 20vw;
     text-align: right;
 }
-#event2 {
+#eventfuture {
     position: relative;
     zoom: 0.2;
-    font-size: 80px;
+    font-size: 10vw;
     display: flex;
     background-color: white;
     margin-top: 10px;
@@ -35,36 +35,12 @@ h1{
     justify-content: flex-end;
     align-items: start;
 }
-#event3 {
-    position: relative;
-    zoom: 0.2;
-    font-size: 80px;
-    display: flex;
-    background-color: white;
-    margin-top: 10px;
-    margin-left: 100px;
-}
 
-.motcle2{
-    font-size: 120px;
-    text-align: right;
-}
-#event4 {
-    position: relative;
-    zoom: 0.2;
-    font-size: 80px;
-    display: flex;
-    background-color: white;
-    margin-top: 10px;
-    direction: rtl;
-    margin-right: 100px;
-}
-.mot{
-    height: 100%;
-    display:flex;
-    flex-flow: column;
-    justify-content: flex-end;
-    align-items: start;
+.responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0px 100px 0px 100px;
 }
 
 .like{
@@ -77,14 +53,4 @@ h1{
 }
 .like:hover{
     color: blue;
-}
-
-.inscription{
-    position: relative;
-    font-size: 80px;
-    display: flex;
-    direction: rtl;
-    margin-right: 100px;
-    margin-top: 50px;
-    margin-left: 1200px;
 }

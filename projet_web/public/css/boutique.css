@@ -3,47 +3,22 @@ h1{
     position: relative;
 }
 .motcle{
-    font-size: 120px;
+    font-size: 20vw;;
 }
-#vente1 {
+#vente {
     position: relative;
     zoom: 0.2;
-    font-size: 80px;
+    font-size: 10vw;
     display: flex;
     background-color: white;
     margin-top: 10px;
     margin-left: 100px;
 }
 
-#vente2 {
-    position: relative;
-    zoom: 0.2;
-    font-size: 80px;
-    display: flex;
-    background-color: white;
-    margin-top: 10px;
-    margin-left: 100px;
+form button {
+    color: white;
 }
 
-#vente3 {
-    position: relative;
-    zoom: 0.2;
-    font-size: 80px;
-    display: flex;
-    background-color: white;
-    margin-top: 10px;
-    margin-left: 100px;
-}
-
-#vente4 {
-    position: relative;
-    zoom: 0.2;
-    font-size: 80px;
-    display: flex;
-    background-color: white;
-    margin-top: 10px;
-    margin-left: 100px;
-}
 nav{
     background-color: red;
 }
