@@ -1,28 +1,28 @@
 'use strict';
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable('Consults', {
+    return queryInterface.createTable('consults', {
 
-      Id_Activity: {
+      id_activities: {
         allowNull: false,
         type: Sequelize.INTEGER,
         references: {
-          model: 'Activities',
+          model: 'activities',
           key: 'id',
         }
       },
-      Id_Person: {
+      id_users: {
         allowNull: false,
         type: Sequelize.INTEGER,
         references: {
-          model: 'People',
+          model: 'users',
           key: 'id',
-        },
-      }
+        }
+      },
 
     });
   },
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable('Consults');
+    return queryInterface.dropTable('consults');
   }
 };

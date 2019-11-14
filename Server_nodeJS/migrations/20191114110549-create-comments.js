@@ -1,42 +1,42 @@
 'use strict';
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable('Comments', {
+    return queryInterface.createTable('comments', {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      Date_Comment: {
+      date: {
         allowNull: false,
         type: Sequelize.DATE
       },
-      Author_Comment: {
+      author: {
         allowNull: false,
         type: Sequelize.STRING
       },
-      Appreciation: {
+      appreciation: {
         allowNull: false,
         type: Sequelize.STRING
       },
-      Like_Comment: {
+      like: {
         allowNull: false,
         type: Sequelize.BOOLEAN
       },
-      Public_Comment: {
+      public: {
         allowNull: false,
         type: Sequelize.BOOLEAN
       },
-      Ref_Comment: {
+      ref: {
         allowNull: false,
-        type: Sequelize.INTEGER
+        type: Sequelize.STRING
       },
-      Id_Person: {
+      id_users: {
         allowNull: false,
         type: Sequelize.INTEGER,
         references:{
-          model:'People',
+          model:'users',
           key: 'id',
         }
       },
@@ -44,6 +44,6 @@ module.exports = {
     });
   },
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable('Comments');
+    return queryInterface.dropTable('comments');
   }
 };

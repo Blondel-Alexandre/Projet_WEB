@@ -1,31 +1,28 @@
 'use strict';
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable('Contains', {
+    return queryInterface.createTable('haves', {
 
-      Id_Basket: {
+      id_photos: {
         allowNull: false,
         type: Sequelize.INTEGER,
         references: {
-          model: 'Baskets',
+          model: 'photos',
           key: 'id',
         }
       },
-      Id_Product: {
+      id_products: {
         allowNull: false,
         type: Sequelize.INTEGER,
         references: {
-          model: 'Products',
+          model: 'products',
           key: 'id',
         }
       },
-      Quantity: {
-        allowNull: false,
-        type: Sequelize.INTEGER
-      },
+
     });
   },
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable('Contains');
+    return queryInterface.dropTable('haves');
   }
 };

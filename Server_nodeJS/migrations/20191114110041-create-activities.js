@@ -1,45 +1,56 @@
 'use strict';
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable('Photos', {
+    return queryInterface.createTable('activities', {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      Date_Photo: {
+      name: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      date: {
         allowNull: false,
         type: Sequelize.DATE
       },
-      Author_Photo: {
+      description: {
         allowNull: false,
         type: Sequelize.STRING
       },
-      Picture: {
+      price: {
+        allowNull: false,
+        type: Sequelize.BOOLEAN
+      },
+      location: {
         allowNull: false,
         type: Sequelize.STRING
       },
-      Public_Photo: {
+      status: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      regularity: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      public: {
         allowNull: false,
         type: Sequelize.BOOLEAN
       },
-      Like_Photo: {
-        allowNull: false,
-        type: Sequelize.BOOLEAN
-      },
-      Id_Person: {
-        allowNull: false,
+      id_users: {
         type: Sequelize.INTEGER,
         references: {
-          model: 'People',
+          model: 'users',
           key: 'id',
         },
-      }
+      },
 
     });
   },
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable('Photos');
+    return queryInterface.dropTable('activities');
   }
 };
