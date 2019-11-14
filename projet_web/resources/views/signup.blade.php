@@ -72,7 +72,7 @@ button {
 
         <div>
             <label for="password">Mot de passe (Contenant 1 Maj, 1 Min, 1 Chiffre minimum ) :</label>
-            <input type="text" id="password" name="user_password">
+            <input type="password" id="password" name="user_password">
         </div>
 
         <div>
