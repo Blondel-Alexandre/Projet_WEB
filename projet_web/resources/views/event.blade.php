@@ -10,7 +10,7 @@
             <img src="pictures/event1.png" width="626" height="469" class="responsive" />
             <p>
                 <a
-                    class="keypast" href="linkeventpast"> event 2 passé
+                    class="keypast" href="linkeventpast"> event 1 passé
                 </a>
                 </br>
                 <span
@@ -19,14 +19,20 @@
                 <a href="#" class="like"><i class="far fa-thumbs-up"></i></a>
                 <br/>
                 <a class="btn btn-info" href="/addphoto2" role="button">Photo</a>
+                <br/>
+                <label for="text">Commentaire</label>
+                <input type="text" id="commentary" name="commentary">
             </p>
+            <div>
+
+            </div>
         </div>
         <hr>
         <div id="eventfuture">
             <img src="pictures/event1.png" width="626" height="469" class="responsive" />
             <p class="mot">
                 <a
-                    class="keyfuture" href="linkeventfutur1"> event 1 futur
+                    class="keyfuture" href="eventsignin"> event 1 futur
                 </a>
                 <span
                     class="desc">toujours event bla bla duhf cheh fetrtui dhu hd
