@@ -6,7 +6,7 @@
 
 
 
-    <form action="/api/add" method="post">
+    <form action="" method="post">
         <div>
             <label for="name">Nom :</label>
             <input type="text" id="name" name="user_name">
@@ -33,8 +33,9 @@
         </div>
 
         <div>
-            <label for="password">Mot de passe (Contenant 1 Maj, 1 Min, 1 Chiffre minimum ) :</label>
-            <input type="text" id="password" name="user_password">
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" name="user_password"
+                   pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Format requis: 1 majuscule, 1 minuscule, minimum 8 caractères">
         </div>
 
         <div>
@@ -46,7 +47,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
         <div class="button">
