@@ -6,7 +6,7 @@
 
 
 
-    <form action="/api/add" method="post">
+    <form action="/api/register" method="post">
         <div>
             <label for="name">Nom :</label>
             <input type="text" id="name" name="user_name">
@@ -14,13 +14,13 @@
 
         <div>
             <label for="firstname">Prénom :</label>
-            <input type="text" id="firtsname" name="user_firtsname">
+            <input type="text" id="firtsname" name="user_firstname">
         </div>
 
         <div>
             <label for="localisation">Centre CESI :</label>
 
-            <SELECT name="localisation" size="1">
+            <SELECT name="user_localisation" size="1">
                 <OPTION>Arras
                 <OPTION>Lille
                 <OPTION>Rouen
@@ -29,7 +29,7 @@
 
         <div>
             <label for="mail">E-mail :</label>
-            <input type="email" id="mail" name="user_mail">
+            <input type="email" id="mail" name="user_email">
         </div>
 
         <div>
