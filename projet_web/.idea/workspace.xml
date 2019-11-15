@@ -30,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -41,6 +41,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\logcielCesi\wamp64\www\projet_web\Projet_Web\projet_web\resources\views" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrateur\Documents\Projet_web\Projet_Web\projet_web\public\css" />
     </key>
@@ -70,6 +73,7 @@
       <workItem from="1573653472695" duration="1203000" />
       <workItem from="1573805100086" duration="358000" />
       <workItem from="1573806104880" duration="1138000" />
+      <workItem from="1573816280724" duration="6105000" />
     </task>
     <servers />
   </component>

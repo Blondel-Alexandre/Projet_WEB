@@ -23,15 +23,17 @@ a.nav-link {
 .active{
     cursor: pointer;
 }
-.full-height {
-    height: 0px;
-}
 
 .flex-center {
     align-items: center;
     display: flex;
     justify-content: center;
 }
+
+.img{
+    margin-left: 10px;
+}
+
 
 .cesi{
     zoom: 0.9;
@@ -112,19 +114,10 @@ main{
 
 
 footer {
-    position: static;
+    position: fixed;
     width: 100%;
     height: 30px;
     bottom: 0;
     background-color: black;
-}
-
-.mention_legal{
-    margin-left: 40%;
-    color: white;
-}
-
-.contact{
-    margin-left: 10%;
-    color: white;
+    text-align: center;
 }

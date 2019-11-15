@@ -4,9 +4,6 @@
 
 @section('contenu')
 
-
-
-
     <form action="/api/register" method="post">
         <div>
             <label for="name">Nom :</label>
@@ -48,7 +45,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
         <div class="button">

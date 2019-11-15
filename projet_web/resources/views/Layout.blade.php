@@ -51,8 +51,9 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-link" href="/admin">admin</a>
             </li>
+
             <ul class="social">
                 <a href="https://www.facebook.com/BDECESIARRAS?__tn__=%2CdlC-R-R&eid=ARB0nX-9op5-hAKXV-tAay18Hyr0rs_HPKCWr8WO1C8lWWsVumTpKI3m8mjfFQCzaOx-FclHSb3zFcpQ&hc_ref=ARRwFbSrdyg_kbD5oBfDPVrjR1y6hXwcNiJwsuVy6vP8zVfMPNcVMFS6gW_8s6M6h-c" class="reseaux facebook"><i class="fab fa-facebook"></i></a>
                 <a href="https://twitter.com/BDE_Exia_Arras" class="reseaux twitter"><i class="fab fa-twitter"></i></a>
