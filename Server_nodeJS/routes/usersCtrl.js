@@ -75,14 +75,17 @@ module.exports = {
         }
 
         models.users.findOne({
-            attributes: ['email'],
             where: { email: email}
         })
         .then(function  (userFound){
-            
+            if(userFound){
+
+            }else{
+                return res.status().json({ 'erroe': 'user doesn\'exist'});
+            }
         })
         .catch(function(err){
-            return res.status(500).json({ 'error': 'unable to verify user'})
+            return res.status(500).json({ 'error': 'unable to verify user'});
         });
 
     }

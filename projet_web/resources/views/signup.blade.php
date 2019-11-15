@@ -6,7 +6,7 @@
 
 
 
-    <form action="/api/add" method="post">
+    <form action="/addUser" method="">
         <div>
             <label for="name">Nom :</label>
             <input type="text" id="name" name="user_name">
