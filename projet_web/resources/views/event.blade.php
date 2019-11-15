@@ -4,6 +4,7 @@
 @section ('contenu')
 
     <h1>Evènement</h1>
+    <a class="btn btn-secondary" href="/eventInput" role=button">ajouter un évènement<a/>
 
     <div id="eventpast">
         <img src="pictures/event1.png" width="626" height="469" class="responsive" />
@@ -17,13 +18,15 @@
     </div>
     <hr>
     <div id="eventfuture">
-        <img src="pictures/event1.png" width="626" height="469" class="responsive" />  
+        <img src="pictures/event1.png" width="626" height="469" class="responsive" />
         <p class="mot">
             <a
                 class="keyfuture" href="linkeventfutur1"> event 1 futur
             </a>
             <span
                 class="desc">toujours event bla bla duhf cheh fetrtui dhu hd
+                <br/>
+                    <button class="inscription" type="submit" >inscription</button>
             </span>
         </p>
     </div>
@@ -50,6 +53,8 @@
             </a>
             <span
                 class="desc">toujours event bla bla duhf cheh fetrtui dhu hd
+                <br/>
+                    <button class="inscription" type="submit" >inscription</button>
             </span> </p>
     </div>
 

@@ -2,6 +2,14 @@ h1{
     background-color: red;
     position: relative;
 }
+
+a.btn-secondary{
+    background-color: blue;
+    margin-left: 1%;
+    margin-top: 1%;
+    marrgin-bottom: 1%;
+}
+
 .motcle{
     font-size: 20vw;;
 }

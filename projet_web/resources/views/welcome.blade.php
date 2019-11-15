@@ -10,8 +10,6 @@
 
 @section('contenu')
 
-    <!DOCTYPE html>
-    <html>
     <head>
         <title>Cookie</title>
 

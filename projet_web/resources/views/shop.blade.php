@@ -10,11 +10,8 @@
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             <a class="backet" href="backet" ><i class="fas fa-shopping-basket"></i></a>
         </form>
-
     </nav>
-
-
-
+    <a class="btn btn-secondary" href="/shopInput" role=button">ajouter un produit<a/>
 
     <div id="vente">
         <img src="pictures/boutique.jpg" />

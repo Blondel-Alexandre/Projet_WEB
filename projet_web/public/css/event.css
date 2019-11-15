@@ -1,6 +1,11 @@
 h1{
     background-color: red;
 }
+a.btn-secondary{
+    background-color: blue;
+    margin-left: 1%;
+}
+
 .keypast{
     font-size: 20vw;
 }
