@@ -13,6 +13,7 @@ exports.router = (function(){
     //Users routes
     apiRouter.route('/users/register/').post(usersCtrl.register);
     apiRouter.route('/users/login/').post(usersCtrl.login);
+    apiRouter.route('/users/me/').get(usersCtrl.getUserProfile);
     apiRouter.route('/activity/addActivity').post(activitiesCtrl.addActivity);
     apiRouter.route('/photo/addPhoto').post(photosCtrl.addPhoto);
     apiRouter.route('/comment/addComment').post(commentCtrl.addComment);
