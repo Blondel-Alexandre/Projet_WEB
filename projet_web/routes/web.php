@@ -53,8 +53,9 @@ Route::get('/backet', function () {
 
 Route::get('/addUser',"addUser@saveApiData");
 
+Route::get('/addEvent',"addEvent@saveApiData");
+
 
 Route::get('/cgv', function () {
     return view('cgv');
 });
-

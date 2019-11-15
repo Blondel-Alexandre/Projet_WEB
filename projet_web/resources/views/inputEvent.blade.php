@@ -6,7 +6,7 @@
 
 
 
-    <form action="/api/register" method="post">
+    <form action="/api/addEvent" method="post">
         <div>
             <label for="name">Nom :</label>
             <input type="text" id="name" name="event_name">

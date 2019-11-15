@@ -20,17 +20,17 @@
         <img src="pictures/boutique.jpg" />
         <p><a class="motcle" href="/link1shop"> vente 1 </a></br> <span class="desc">premier event tmtc tro cool enfaite hate de la suite blablabla .....</span> </p>
     </div>
-
+    <hr>
     <div id="vente">
         <img src="pictures/boutique.jpg" />
         <p><a class="motcle" href="link1shop2"> vente 2 </a><span class="desc">toujours event bla bla duhf cheh fetrtui dhu hd</span> </p>
     </div>
-
+    <hr>
     <div id="vente">
         <img src="pictures/boutique.jpg" />
         <p><a class="motcle" href="link1shop3"> vente 3 </a></br> <span class="desc">premier event tmtc tro cool enfaite hate de la suite blablabla .....</span> </p>
     </div>
-
+    <hr>
     <div id="vente">
         <img src="pictures/boutique.jpg" />
         <p><a class="motcle" href="link1shop4"> vente 4 </a><span class="desc">toujours event bla bla duhf cheh fetrtui dhu hd</span> </p>
