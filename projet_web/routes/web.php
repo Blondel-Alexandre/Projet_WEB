@@ -19,6 +19,10 @@ Route::get('/event', function () {
     return view('event');
 });
 
+Route::get('/event/inputEvent', function () {
+    return view('inputEvent');
+});
+
 Route::get('/signin', function () {
     return view('signin');
 });

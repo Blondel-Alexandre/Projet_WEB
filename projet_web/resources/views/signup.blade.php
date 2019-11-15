@@ -14,7 +14,7 @@
 
         <div>
             <label for="firstname">Prénom :</label>
-            <input type="text" id="firtsname" name="user_firstname">
+            <input type="text" id="firstname" name="user_firstname">
         </div>
 
         <div>
