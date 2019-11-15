@@ -9,17 +9,17 @@ class addActivity extends Controller {
     public function saveApiData()
     {
         $client = new Client();
-        $res = $client->request('POST', 'http://localhost:8080/api/activity/addActivity', [
+        $res = $client->request('POST', 'http://localhost:8080/api/activity/addEvent', [
             'form_params' => [
-                'name' => '$name',
-                'date' => '$date',
-                'description' => '$description',
-                'price' => '$price',
-                'location' => '$location',
-                'status' => '$status',
-                'regularity' => '$regularity',
-                'public' => '$public',
-                'email' => '$email',
+                'name' => $_POST['event_name'],
+                'date' => $_POST['event_date'],
+                'description' => $_POST['event_description'],
+                'price' => $_POST['event_price'],
+                'location' => $_POST['event_location'],
+                'status' => $_POST['event_status'],
+                'regularity' => 'oui',
+                'public' => 'oui',
+                'email' => $_POST['event_mail'],
             ]
         ]);
     }

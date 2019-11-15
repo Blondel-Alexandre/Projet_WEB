@@ -14,7 +14,7 @@
 
         <div>
             <label for="date">Date :</label>
-            <input type="date" id="firstname" name="event_date">
+            <input type="date" id="date" name="event_date">
         </div>
 
         <div>
@@ -27,9 +27,9 @@
         </div>
 
         <div>
-            <label for="localisation">Centre CESI :</label>
+            <label for="location">Centre CESI :</label>
 
-            <SELECT name="event_localisation" size="1">
+            <SELECT name="event_location" size="1">
                 <OPTION>Arras
                 <OPTION>Lille
                 <OPTION>Rouen
@@ -37,8 +37,25 @@
         </div>
 
         <div>
-            <label for="description">Statut :</label>
-            <textarea name="event_description" id="description" cols="30" rows="10"></textarea>
+            <label for="status">Statut :</label>
+
+            <input type="radio" id="Arras" name="status" value="Arras" checked>
+            <label for="status">Arras</label>
+        </div>
+
+        <div>
+            <input type="radio" id="Lille" name="status" value="Lille">
+            <label for="status">Lille</label>
+        </div>
+
+        <div>
+            <input type="radio" id="Rouen" name="status" value="Rouen">
+            <label for="status">Rouen</label>
+        </div>
+
+        <div>
+            <label for="mail">E-mail Organisateur :</label>
+            <input type="email" id="email" name="event_mail">
         </div>
 
 
