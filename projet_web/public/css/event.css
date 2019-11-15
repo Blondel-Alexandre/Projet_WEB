@@ -5,6 +5,15 @@ a.btn-secondary{
     background-color: blue;
     margin-left: 1%;
 }
+a.btn-success{
+    padding: 100px;
+    font-size: 100px;
+}
+
+a.btn-info{
+    padding: 100px;
+    font-size: 100px;
+}
 
 .keypast{
     font-size: 20vw;
