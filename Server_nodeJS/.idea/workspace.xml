@@ -13,6 +13,20 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -33,7 +47,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/ProjetWEB" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projet_web" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -79,6 +93,13 @@
       <workItem from="1573545445925" duration="106000" />
       <workItem from="1573545722541" duration="5578000" />
       <workItem from="1573635348104" duration="16156000" />
+      <workItem from="1573732914598" duration="1241000" />
+      <workItem from="1573738057510" duration="1602000" />
+      <workItem from="1573748500087" duration="1945000" />
+      <workItem from="1573759516226" duration="34000" />
+      <workItem from="1573766726007" duration="8575000" />
+      <workItem from="1573804629373" duration="828000" />
+      <workItem from="1573806078484" duration="1164000" />
     </task>
     <servers />
   </component>
