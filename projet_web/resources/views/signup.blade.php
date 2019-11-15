@@ -34,7 +34,8 @@
 
         <div>
             <label for="password">Mot de passe (Contenant 1 Maj, 1 Min, 1 Chiffre minimum ) :</label>
-            <input type="text" id="password" name="user_password">
+            <input type="password" id="password" name="user_password"
+                   pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Format requis: 1 majuscule, 1 minuscule, minimum 8 caractères">
         </div>
 
         <div>

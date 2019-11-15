@@ -67,5 +67,23 @@ module.exports = {
     },
     login: function(req, res){
 
+        var email = req.body.email;
+        var password = req.body.email;
+
+        if (email == null ||  password == null){
+            return res.status(400).json({ 'error': 'missing parameters'})            
+        }
+
+        models.users.findOne({
+            attributes: ['email'],
+            where: { email: email}
+        })
+        .then(function  (userFound){
+            
+        })
+        .catch(function(err){
+            return res.status(500).json({ 'error': 'unable to verify user'})
+        });
+
     }
 }
