@@ -5,7 +5,7 @@ var models = require('../models');
 
 //Routes
 module.exports = {
-    addActivity: function(req, res){
+    addEvent: function(req, res){
 
         //parameters
         var name = req.body.name ;

@@ -1,4 +1,4 @@
-@extends ('Layout')
+inputEvent.blade.php@extends ('Layout')
 
 <link href="{{asset('css/eventsignin.css')}}" rel="stylesheet" />
 

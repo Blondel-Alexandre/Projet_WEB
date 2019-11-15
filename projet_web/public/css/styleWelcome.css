@@ -16,11 +16,11 @@ body {
     margin: 0;
 }
 
-div#slider {
+#slider {
     width: 80%;
     max-width: 1000px; }
 
-div#slider figure {
+#slider figure {
     position: relative;
     width: 500%;
     margin: 0;
@@ -30,13 +30,13 @@ div#slider figure {
     animation: 10s slidy infinite;
 }
 
-div#slider figure img {
+#slider figure img {
     width: 20%;
     height: auto;
     float: left;
 }
 
-div#slider {
+#slider {
     width: 80%;
     max-width: 1000px;
     overflow: hidden;

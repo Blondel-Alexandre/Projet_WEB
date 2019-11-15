@@ -9,6 +9,9 @@ class addUser extends Controller
 {
     public function saveApiData()
     {
+        $mdp = $_POST['user_password'];
+        $mdp_hached = md5($mdp);
+        
         echo "coucou";
         $client = new Client();
         $res = $client->request('POST', 'http://localhost:8080/api/users/register', [
@@ -17,11 +20,13 @@ class addUser extends Controller
                 'first_name' => $_POST['user_firstname'],
                 'location' => $_POST['user_localisation'],
                 'email' => $_POST['user_email'],
-                'password' => $_POST['user_password'],
+                'password' => $mdp_hached,
                 'status' => 'status',
                 'profile' => 'profile',
             ]
         ]);
+        
+        return redirect("/signin");
 }
 
 }

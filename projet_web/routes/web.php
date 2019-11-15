@@ -19,6 +19,10 @@ Route::get('/event', function () {
     return view('event');
 });
 
+Route::get('/event/inputEvent', function () {
+    return view('inputEvent');
+});
+
 Route::get('/signin', function () {
     return view('signin');
 });
@@ -49,8 +53,14 @@ Route::get('/backet', function () {
 
 Route::get('/addUser',"addUser@saveApiData");
 
+Route::get('/addEvent',"addEvent@saveApiData");
+
 
 Route::get('/cgv', function () {
     return view('cgv');
-});
+    });
+
+Route::get('/event/inputEvent', function () {
+    return view('inputEvent');
+    });
 
