@@ -25,3 +25,6 @@ class addUser extends Controller
 }
 
 }
+?>
+
+
