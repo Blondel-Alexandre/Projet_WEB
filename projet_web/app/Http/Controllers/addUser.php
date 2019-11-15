@@ -22,6 +22,8 @@ class addUser extends Controller
                 'profile' => 'profile',
             ]
         ]);
+        
+        return redirect("/signin");
 }
 
 }
