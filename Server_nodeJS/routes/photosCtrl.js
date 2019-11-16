@@ -17,7 +17,7 @@ module.exports = {
 
 
 
-        if (email == null || date == null || author == null || picture == null || public == null || like == null ){
+        if (email == null || date == null || author == null || picture == null || public == null || likphote == null ){
             return res.status(400).json({ 'error': 'missing parameters'})
         }
 
@@ -27,24 +27,24 @@ module.exports = {
         })
             .then(function(userFound){
                 if (!userFound){
-                    bcrypt.hash(password, 5, function(err, bcryptedPassword){
-                        var newPhoto = models.tpphotos.create({
-                            date:date,
-                            author:author,
-                            picture:picture,
-                            public:public,
-                            like:like,
-                            email:email,
+
+                    var newPhoto = models.tpphotos.create({
+                        date:date,
+                        author:author,
+                        picture:picture,
+                        public:public,
+                        like:like,
+                        email:email,
+                    })
+                        .then(function(newPhoto){
+                            return res.status(201).json({
+                                'photoId': newPhoto.id
+                            })
                         })
-                            .then(function(newPhoto){
-                                return res.status(201).json({
-                                    'photoId': newPhoto.id
-                                })
-                            })
-                            .catch(function(err){
-                                return res.status(500).json({ 'error': 'cannot add photo'});
-                            })
-                    });
+                        .catch(function(err){
+                            return res.status(500).json({ 'error': 'cannot add photo'});
+                        })
+
 
                 }else{
                     return res.status(409).json({'error': 'photo already exist'});
