@@ -11,15 +11,16 @@ class addComment extends Controller {
         $client = new Client();
         $res = $client->request('POST', 'http://localhost:8080/api/comment/addComment', [
             'form_params' => [
-                'date' => '$date',
-                'author' => '$author',
-                'appreciation' => '$appreciation',
-                'like' => '$like',
+                'date' => $_POST['$date'],
+                'author' => $_POST['$author'],
+                'appreciation' => $_POST['$appreciation'],
+                'like' => $_POST['$like'],
                 'public' => '$public',
                 'ref' =>'$ref',
-                'email' => '$email',
+                'email' => $_POST['$email'],
             ]
         ]);
+        return redirect("/addComment");
     }
 }
 ?>

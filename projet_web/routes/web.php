@@ -58,22 +58,17 @@ Route::get('/addEvent',"addEvent@saveApiData");
 
 Route::get('/cgv', function () {
     return view('cgv');
-<<<<<<< HEAD
 });
-=======
-    });
->>>>>>> 81990626aeca20fcd3e7239a2447b4d9d5c13f17
+
 
 Route::get('/event/inputEvent', function () {
     return view('inputEvent');
-    });
+});
 
-<<<<<<< HEAD
 Route::get('/shopInput', function () {
     return view('shopInput');
 });
 
 Route::get('/addProduct',"addProduct@saveApiData");
 
-=======
->>>>>>> 81990626aeca20fcd3e7239a2447b4d9d5c13f17
+Route::get('/addComment',"addComment@saveApiData");
