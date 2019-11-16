@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4eedb792-7994-4682-8494-5708a4ebf5cd" name="Default Changelist" comment="" />
+    <list default="true" id="4eedb792-7994-4682-8494-5708a4ebf5cd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/usersCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/usersCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projet_web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../projet_web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projet_web/app/Http/Controllers/addProduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/../projet_web/app/Http/Controllers/addProduct.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projet_web/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/../projet_web/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projet_web/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../projet_web/routes/web.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +107,7 @@
       <workItem from="1573766726007" duration="8575000" />
       <workItem from="1573804629373" duration="828000" />
       <workItem from="1573806078484" duration="1164000" />
+      <workItem from="1573901117976" duration="1302000" />
     </task>
     <servers />
   </component>

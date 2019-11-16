@@ -41,7 +41,7 @@ module.exports = {
                         email: email,
                         password: bcryptedPassword,
                         status: status,
-                        profile: profile
+                        profile: profile,
                     })
                     .then(function(newUser){
                         console.log("hey");

@@ -58,13 +58,15 @@ Route::get('/addEvent',"addEvent@saveApiData");
 
 Route::get('/cgv', function () {
     return view('cgv');
-<<<<<<< HEAD
-});
-=======
 });
 
 Route::get('/event/inputEvent', function () {
     return view('inputEvent');
 });
 
->>>>>>> 264d3dc52b3eb1afb1ef3e57bc217c354c90448b
+Route::get('/shopInput', function () {
+    return view('shopInput');
+});
+
+Route::get('/addProduct',"addProduct@saveApiData");
+
