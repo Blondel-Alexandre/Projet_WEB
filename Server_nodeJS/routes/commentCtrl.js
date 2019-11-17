@@ -26,28 +26,27 @@ module.exports = {
             where: { email: email}
         })
             .then(function(userFound){
-                if (!userFound){
-                    bcrypt.hash(password, 5, function(err, bcryptedPassword){
-                        var newComment = models.tpcomments.create({
+                if (userFound){
 
-                            date:date,
-                            author:author,
-                            appreciation: appreciation,
-                            like:like,
-                            public:public,
-                            ref:ref,
-                            email:email
+                    var newComment = models.tpcomments.create({
+                        date:date,
+                        author:author,
+                        appreciation: appreciation,
+                        like:like,
+                        public:public,
+                        ref:ref,
+                        email:email
+                    })
+                        .then(function(newComment){
+
+                            return res.status(201).json({
+                                'commentId': newComment.id
+                            })
                         })
-                            .then(function(newComment){
+                        .catch(function(err){
+                            return res.status(500).json({ 'error': 'cannot add comment'});
+                        })
 
-                                return res.status(201).json({
-                                    'commentId': newComment.id
-                                })
-                            })
-                            .catch(function(err){
-                                return res.status(500).json({ 'error': 'cannot add comment'});
-                            })
-                    });
 
                 }else{
                     return res.status(409).json({'error': 'comment already exist'});

@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b1c35ac7-8484-4946-83cf-92287233e434" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/event.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/event.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/event.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/event.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -43,11 +46,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\logcielCesi\wamp64\www\projet_web\Projet_Web\projet_web\resources\views" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrateur\Documents\Projet_web\Projet_Web\projet_web\public\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\logcielCesi\wamp64\www\projet_web\Projet_Web\projet_web\public" />
+      <recent name="D:\logcielCesi\wamp64\www\projet_web\Projet_Web\projet_web\app\Http\Controllers\Auth" />
+      <recent name="D:\logcielCesi\wamp64\www\projet_web\Projet_Web\projet_web\resources\views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -76,6 +81,10 @@
       <workItem from="1573805100086" duration="358000" />
       <workItem from="1573806104880" duration="1138000" />
       <workItem from="1573816280724" duration="7093000" />
+      <workItem from="1573830214520" duration="1011000" />
+      <workItem from="1573896705278" duration="2882000" />
+      <workItem from="1573917377838" duration="2533000" />
+      <workItem from="1573984561761" duration="1816000" />
     </task>
     <servers />
   </component>

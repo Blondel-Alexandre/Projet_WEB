@@ -10,6 +10,11 @@ a.btn-success{
     font-size: 100px;
 }
 
+a.btn-warning{
+    padding: 100px;
+    font-size: 100px;
+}
+
 a.btn-info{
     padding: 100px;
     font-size: 100px;

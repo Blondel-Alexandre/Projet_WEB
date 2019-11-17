@@ -40,7 +40,7 @@ module.exports = {
                         email: email,
                         password: password,
                         status: status,
-                        profile: profile
+                        profile: profile,
                     })
                     .then(function(newUser){
                         console.log("hey");

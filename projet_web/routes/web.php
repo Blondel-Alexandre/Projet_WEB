@@ -51,16 +51,31 @@ Route::get('/backet', function () {
     return view('backet');
 });
 
+Route::get('/cgv', function () {
+    return view('cgv');
+});
+
+Route::get('/event/inputEvent', function () {
+    return view('inputEvent');
+});
+
+Route::get('/shopInput', function () {
+    return view('shopInput');
+});
+
+Route::get('/eventsignin', function () {
+    return view('eventsignin');
+});
+
+Route::get('/addProduct',"addProduct@saveApiData");
+
+Route::get('/addComment',"addComment@saveApiData");
+
 Route::get('/addUser',"addUser@saveApiData");
 
 Route::get('/addEvent',"addEvent@saveApiData");
 
 
-Route::get('/cgv', function () {
-    return view('cgv');
-    });
-
-Route::get('/event/inputEvent', function () {
-    return view('inputEvent');
-    });
+Route::get('/uploadfile', 'UploadfileController@index');
+Route::post('/uploadfile', 'UploadfileController@upload');
 

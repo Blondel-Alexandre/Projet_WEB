@@ -21,3 +21,5 @@ Route::post('/register',"addUser@saveapiData");
 
 Route::post('/addEvent',"addEvent@saveapiData");
 
+Route::post('/addProduct',"addProduct@saveapiData");
+
