@@ -43,6 +43,7 @@
                         class="desc">toujours event bla bla duhf cheh fetrtui dhu hd
                 <br/>
                    <a class="btn btn-success" href="/eventsignin" role="button">S'inscrire</a>
+                         <a class="btn btn-warning" href="/" role="button">Recuperer les inscrits</a>
             </span>
                 </p>
             </div>
