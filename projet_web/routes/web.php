@@ -72,3 +72,8 @@ Route::get('/shopInput', function () {
 Route::get('/addProduct',"addProduct@saveApiData");
 
 Route::get('/addComment',"addComment@saveApiData");
+
+
+Route::get('/uploadfile', 'UploadfileController@index');
+Route::post('/uploadfile', 'UploadfileController@upload');
+
