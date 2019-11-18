@@ -5,7 +5,7 @@
 
     <form action="/api/addComment" method="post">
 
-        <h1>Evènement</h1>
+        <h1 class="title">Evènement</h1>
         <a class="btn btn-secondary" href="/inputEvent" role="button">ajouter un évènement</a>
         <hr>
             <div id="eventpast">
@@ -24,7 +24,7 @@
                         <a class="btn btn-info" href="/addphoto2" role="button">Photo</a>
                     </div>
                    
-                <div class="add">
+                <div class="addpast">
                     <label for="comment">Commentaire</label>
                     <input type="text" id="comment" name="tppComment_comment">
                     <button type="submit">Envoyer</button>
@@ -45,7 +45,7 @@
                     <span class="desc">
                         toujours event bla bla duhf cheh fetrtui dhu hd
                     </span>
-                <div>
+                <div class="addfuture">
                     <a class="btn btn-success" href="/eventsignin" role="button">S'inscrire</a>
                     <a class="btn btn-warning" href="/" role="button">Recuperer les inscrits</a>
                 </div>
@@ -69,7 +69,7 @@
                         <a class="btn btn-info" href="/addphoto2" role="button">Photo</a>
                     </div>
                    
-                <div class="add">
+                <div class="addpast">
                     <label for="comment">Commentaire</label>
                     <input type="text" id="comment" name="tppComment_comment">
                     <button type="submit">Envoyer</button>
@@ -90,7 +90,7 @@
                     <span class="desc">
                         toujours event bla bla duhf cheh fetrtui dhu hd
                     </span>
-                <div>
+                <div class="addfuture">
                     <a class="btn btn-success" href="/eventsignin" role="button">S'inscrire</a>
                     <a class="btn btn-warning" href="/" role="button">Recuperer les inscrits</a>
                 </div>
