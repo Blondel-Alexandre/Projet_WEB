@@ -33,6 +33,10 @@ a.btn-info{
     margin-left: 100px;
 }
 
+#addpast {
+    position: block;
+}
+
 .keyfuture{
     font-size: 20vw;
     text-align: right;
