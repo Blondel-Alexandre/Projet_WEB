@@ -21,5 +21,11 @@ exports.router = (function(){
     apiRouter.route('/comment/addComment').post(commentCtrl.addComment);
     apiRouter.route('/product/addProduct/').post(productCtrl.addProduct);
 
+    apiRouter.route('/product/').get(productCtrl.listProduct);
+
+    apiRouter.route('/photo/').get(photosCtrl.listPhoto);
+    apiRouter.route('/comment/').get(commentCtrl.listComment);
+    apiRouter.route('/activity/').get(activitiesCtrl.listActivity);
+
     return apiRouter;
 })();
