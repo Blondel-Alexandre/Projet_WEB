@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
+    
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="{{asset('css/header.css')}}">
+    <link rel="stylesheet" href="{{asset('css/footer.css')}}">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
-    <link rel="stylesheet" href="{{asset('css/header.css')}}">
-    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <title>BDE</title>
   </head>
 
   <body>
     <header>
 
-        <h1 class="title">
+        <h1>
             Site BDE
         </h1>
 
@@ -43,9 +50,33 @@
 </main>
 
 <footer class="footer">
-    <a class="mention_legal" href="/legalmention">mention legal</a>
-    <a class="contact" href="/contact">contact</a>
+  <div>
+    
+  </div>
+
+  <div class="middle">
+      <a class="btn" href="#">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a class="btn" href="#">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a class="btn" href="#">
+        <i class="fab fa-google"></i>
+      </a>
+      <a class="btn" href="#">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a class="btn" href="#">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a class="mention_legal" href="/legalmention">mention legal</a>
+      <a class="contact" href="/contact">contact</a>
+      
+  </div>
+
 
 </footer>
+
 </body>
 </html>

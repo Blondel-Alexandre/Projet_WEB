@@ -5,7 +5,7 @@
 
     <form action="/api/addComment" method="post">
 
-        <h1>Evènement</h1>
+        <h1 class="title">Evènement</h1>
         <a class="btn btn-secondary" href="/inputEvent" role="button">ajouter un évènement</a>
         <hr>
             <div id="eventpast">
