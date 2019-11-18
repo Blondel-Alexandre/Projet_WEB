@@ -1,6 +1,6 @@
 @extends ('Layout')
 
-<link href="{{asset('css/styleSignUp.css')}}" rel="stylesheet" />
+<link href="{{asset('css/form.css')}}" rel="stylesheet" />
 
 @section ('contenu')
 

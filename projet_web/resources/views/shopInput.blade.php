@@ -1,5 +1,6 @@
 @extends ('Layout')
 
+<link href="{{asset('css/form.css')}}" rel="stylesheet" />
 
 @section('contenu')
     <form action="/api/addProduct" method="post">
