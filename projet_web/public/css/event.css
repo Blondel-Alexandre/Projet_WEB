@@ -1,4 +1,4 @@
-h1{
+.title{
     background-color: red;
 }
 a.btn-secondary{
@@ -31,6 +31,10 @@ a.btn-info{
     background-color: white;
     margin-top: 10px;
     margin-left: 100px;
+}
+
+#addpast {
+    position: block;
 }
 
 .keyfuture{

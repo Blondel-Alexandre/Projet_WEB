@@ -5,17 +5,10 @@
 @section('contenu')
     <form action="/api/addProduct" method="post">
 
-        <h1> evenement </h1>
+        <h1> Ajout d'événement </h1>
 
-        <div id="eventfutur1">
+        <div>
 
-            <img src="pictures/event1.png" />
-            <p>
-                </br>
-                <span
-                    class="desc">premier event tmtc tro cool enfaite hate de la suite blablabla .....
-            </span>
-            </p>
             <div>
                 <label for="name">Nom :</label>
                 <input type="text" id="name" name="tpproducts_name">
@@ -27,12 +20,12 @@
             </div>
 
             <div>
-                <label for="firstname">description :</label>
-                <input type="text" id="firstname" name="tpproducts_description">
+                <label for="description">Description :</label>
+                <textarea name="event_description" id="description" cols="30" rows="10"></textarea>
             </div>
 
             <div>
-                <label for="category">categorie :</label>
+                <label for="category">Categorie :</label>
                 <input type="text" id="category" name="tpproducts_category">
             </div>
 

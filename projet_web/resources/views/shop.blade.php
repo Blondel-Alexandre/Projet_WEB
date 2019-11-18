@@ -2,7 +2,7 @@
 <link href="{{asset('css/boutique.css')}}" rel="stylesheet" />
 
 @section ('contenu')
-        <h1>boutique</h1>
+        <h1 class="title">boutique</h1>
 
         <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
