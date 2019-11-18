@@ -2,15 +2,15 @@
 <link href="{{asset('css/boutique.css')}}" rel="stylesheet" />
 
 @section ('contenu')
-        <h1 class="title">boutique</h1>
 
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <div class="title">
+        <h1>Boutique</h1>
+            <input class="title-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
             <a class="backet" href="backet" ><i class="fas fa-shopping-basket"></i></a>
-        </form>
+        </div>
 
-        <a class="btn btn-secondary" href="/shopInput" role=button">ajouter un produit<a/>
+    <a class="btn btn-secondary" href="/shopInput" role="button">Ajouter un produit</a>
 
         @foreach($data as $dataview)
 
@@ -22,6 +22,7 @@
             <hr>
 
         @endforeach>
+
 
 
 @endsection

@@ -16,18 +16,19 @@ module.exports = {
         var ref = req.body.ref;
         var email = req.body.email;
 
-
+        //verification of all parameters
         if (email == null || date == null || appreciation == null || like == null || public == null || ref == null ){
             return res.status(400).json({ 'error': 'missing parameters'})
         }
 
+        //find the email in database in table users
         models.users.findOne({
             attributes: ['email'],
             where: { email: email}
         })
+        //add new comment in the database
             .then(function(userFound){
                 if (userFound){
-
                     var newComment = models.tpcomments.create({
                         date:date,
                         author:author,
@@ -60,11 +61,16 @@ module.exports = {
 
     },
     listComment: function (req, res) {
+        //publish one or more attributes
         var fields = req.query.fields;
+
+        //publish a limit of activity
         var limit = parseInt(req.query.limit);
+
+        // do not display the firsts activities
         var offset = parseInt(req.query.offset);
 
-
+        //send all comments
         models.tpcomments.findAll({
             attributes: (fields !== '*' && fields != null) ? fields.split(',') : null,
             limit: (!isNaN(limit)) ? limit : null,

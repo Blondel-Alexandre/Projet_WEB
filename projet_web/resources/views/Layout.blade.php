@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    
+
     <meta charset="utf-8">
 
     <link rel="stylesheet" href="{{asset('css/header.css')}}">
@@ -47,33 +47,35 @@
 <main>
 
     @yield('contenu')
+
 </main>
 
 <footer class="footer">
   <div>
-    
+
   </div>
 
   <div class="middle">
-
-      <a class="btnn" href="#">
+      <a class="btnn" href="https://www.facebook.com/Cesi.Arras.BDE/">
         <i class="fab fa-facebook-f"></i>
       </a>
-      <a class="btnn" href="#">
+      <a class="btnn" href="https://twitter.com/BDE_Exia_Arras">
         <i class="fab fa-twitter"></i>
       </a>
       <a class="btnn" href="#">
         <i class="fab fa-google"></i>
       </a>
-      <a class="btnn" href="#">
+      <a class="btnn" href="https://www.instagram.com/campus_cesi/?hl=fr">
         <i class="fab fa-instagram"></i>
       </a>
-      <a class="btnn" href="#">
+      <a class="btnn" href="https://www.youtube.com/user/groupecesi1">
         <i class="fab fa-youtube"></i>
       </a>
       <li><a class="mention_legal" href="/legalmention">mention legal</a></li>
       <li><a class="contact" href="/contact">contact</a></li>
- 
+
+
+
   </div>
 
 

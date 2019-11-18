@@ -8,7 +8,9 @@ use GuzzleHttp\Client;
 class addActivity extends Controller {
     public function saveApiData()
     {
+        //connection with server node.js
         $client = new Client();
+        //request for add a Event
         $res = $client->request('POST', 'http://localhost:8080/api/activity/addEvent', [
             'form_params' => [
                 'name' => $_POST['event_name'],

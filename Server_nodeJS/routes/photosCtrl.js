@@ -16,18 +16,19 @@ module.exports = {
         var email = req.body.email;
 
 
-
+        //verification of all parameters
         if (email == null || date == null || author == null || picture == null || public == null || likphote == null ){
             return res.status(400).json({ 'error': 'missing parameters'})
         }
 
+        //find the email in database in table users
         models.users.findOne({
             attributes: ['email'],
             where: { email: email}
         })
+        //add new photo in the database
             .then(function(userFound){
                 if (!userFound){
-
                     var newPhoto = models.tpphotos.create({
                         date:date,
                         author:author,
@@ -58,11 +59,16 @@ module.exports = {
 
     },
     listPhoto : function (req, res) {
+        //publish one or more attributes
         var fields = req.query.fields;
+
+        //publish a limit of activity
         var limit = parseInt(req.query.limit);
+
+        // do not display the firsts activities
         var offset = parseInt(req.query.offset);
 
-
+        //send all photos
         models.tpphotos.findAll({
             attributes: (fields !== '*' && fields != null) ? fields.split(',') : null,
             limit: (!isNaN(limit)) ? limit : null,
