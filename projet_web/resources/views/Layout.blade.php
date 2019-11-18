@@ -55,24 +55,25 @@
   </div>
 
   <div class="middle">
-      <a class="btn" href="#">
+
+      <a class="btnn" href="#">
         <i class="fab fa-facebook-f"></i>
       </a>
-      <a class="btn" href="#">
+      <a class="btnn" href="#">
         <i class="fab fa-twitter"></i>
       </a>
-      <a class="btn" href="#">
+      <a class="btnn" href="#">
         <i class="fab fa-google"></i>
       </a>
-      <a class="btn" href="#">
+      <a class="btnn" href="#">
         <i class="fab fa-instagram"></i>
       </a>
-      <a class="btn" href="#">
+      <a class="btnn" href="#">
         <i class="fab fa-youtube"></i>
       </a>
-      <a class="mention_legal" href="/legalmention">mention legal</a>
-      <a class="contact" href="/contact">contact</a>
-      
+      <li><a class="mention_legal" href="/legalmention">mention legal</a></li>
+      <li><a class="contact" href="/contact">contact</a></li>
+ 
   </div>
 
 

@@ -3,7 +3,392 @@
   <component name="ChangeListManager">
     <list default="true" id="b1c35ac7-8484-4946-83cf-92287233e434" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Server_nodeJS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/acorn" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/acorn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/acorn.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/acorn.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/cdl" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/cdl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/cdl.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/cdl.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/css-beautify" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/css-beautify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/css-beautify.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/css-beautify.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/editorconfig.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/editorconfig.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/eslint" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/eslint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/eslint.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/eslint.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/esparse" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/esparse" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/esparse.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/esparse.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/esvalidate" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/esvalidate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/esvalidate.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/esvalidate.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/html-beautify" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/html-beautify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/html-beautify.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/html-beautify.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/js-beautify" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/js-beautify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/js-beautify.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/js-beautify.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/js-yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/js-yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/js-yaml.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/js-yaml.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/mime" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/mime" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/mime.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/mime.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/mkdirp" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/mkdirp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/mkdirp.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/mkdirp.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/ncp" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/ncp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/ncp.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/ncp.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/nopt" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/nopt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/nopt.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/nopt.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/rimraf" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/rimraf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/rimraf.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/rimraf.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/semver.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/semver.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/sequelize" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/sequelize" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/sequelize-auto" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/sequelize-auto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/sequelize-auto.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/sequelize-auto.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/sequelize-cli" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/sequelize-cli" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/sequelize-cli.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/sequelize-cli.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/sequelize.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/sequelize.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/uuid" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/uuid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/uuid.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/uuid.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/which" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/which" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/which.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/.bin/which.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/assert.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/async_hooks.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/base.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/buffer.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/child_process.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/cluster.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/console.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/constants.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/crypto.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/dgram.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/dns.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/domain.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/events.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/fs.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/globals.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/http.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/http2.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/https.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/inspector.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/module.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/net.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/os.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/path.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/perf_hooks.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/process.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/punycode.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/querystring.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/readline.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/repl.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/stream.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/string_decoder.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/timers.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/tls.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/trace_events.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/ts3.2/fs.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/ts3.2/globals.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/ts3.2/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/ts3.2/util.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/tty.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/url.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/util.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/v8.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/vm.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/worker_threads.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/@types/node/zlib.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/acorn-jsx/node_modules/.bin/acorn" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/acorn-jsx/node_modules/.bin/acorn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/acorn-jsx/node_modules/.bin/acorn.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/acorn-jsx/node_modules/.bin/acorn.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/implementation.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/implementation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/loader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/optional.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/register-shim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/register.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/register/bluebird.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/register/bluebird.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/register/es6-promise.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/register/es6-promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/register/lie.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/register/lie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/register/native-promise-only.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/register/native-promise-only.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/register/pinkie.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/register/pinkie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/register/promise.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/register/promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/register/q.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/register/q.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/register/rsvp.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/register/rsvp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/register/vow.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/register/vow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/register/when.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/any-promise/register/when.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/bcrypt/lib/binding/bcrypt_lib.node" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/bcrypt/lib/binding/bcrypt_lib.node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/bcrypt/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/bcrypt/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/body-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/dottie/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/dottie/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/dottie/dottie.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/dottie/dottie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/dottie/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/dottie/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/jsonwebtoken/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/jsonwebtoken/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/mysql/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/mysql/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/retry-as-promised/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/retry-as-promised/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/retry-as-promised/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/retry-as-promised/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/retry-as-promised/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/retry-as-promised/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize-pool/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize-pool/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize-pool/lib/Deferred.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize-pool/lib/Pool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize-pool/lib/TimeoutError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize-pool/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/associations/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/associations/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/associations/belongs-to-many.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/associations/belongs-to-many.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/associations/belongs-to.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/associations/belongs-to.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/associations/has-many.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/associations/has-many.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/associations/has-one.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/associations/has-one.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/associations/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/associations/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/associations/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/associations/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/associations/mixin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/associations/mixin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/data-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/data-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/deferrable.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/deferrable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/abstract/connection-manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/abstract/connection-manager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/abstract/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/abstract/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/abstract/parser-store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/abstract/query-generator.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/abstract/query-generator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/abstract/query-generator/helpers/quote.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/abstract/query-generator/operators.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/abstract/query-generator/transaction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/abstract/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/abstract/query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mariadb/connection-manager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mariadb/data-types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mariadb/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mariadb/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mariadb/query-generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mariadb/query.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mssql/connection-manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mssql/connection-manager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mssql/data-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mssql/data-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mssql/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mssql/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mssql/query-generator.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mssql/query-generator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mssql/query-interface.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mssql/query-interface.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mssql/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mssql/query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mssql/resource-lock.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mssql/resource-lock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mysql/connection-manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mysql/connection-manager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mysql/data-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mysql/data-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mysql/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mysql/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mysql/query-generator.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mysql/query-generator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mysql/query-interface.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mysql/query-interface.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mysql/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/mysql/query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/postgres/connection-manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/postgres/connection-manager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/postgres/data-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/postgres/data-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/postgres/hstore.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/postgres/hstore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/postgres/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/postgres/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/postgres/query-generator.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/postgres/query-generator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/postgres/query-interface.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/postgres/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/postgres/query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/postgres/range.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/postgres/range.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/sqlite/connection-manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/sqlite/connection-manager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/sqlite/data-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/sqlite/data-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/sqlite/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/sqlite/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/sqlite/query-generator.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/sqlite/query-generator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/sqlite/query-interface.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/sqlite/query-interface.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/sqlite/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/dialects/sqlite/query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/errors/association-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/errors/base-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/errors/bulk-record-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/errors/connection-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/errors/connection/access-denied-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/errors/connection/connection-acquire-timeout-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/errors/connection/connection-refused-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/errors/connection/connection-timed-out-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/errors/connection/host-not-found-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/errors/connection/host-not-reachable-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/errors/connection/invalid-connection-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/errors/database-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/errors/database/exclusion-constraint-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/errors/database/foreign-key-constraint-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/errors/database/timeout-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/errors/database/unknown-constraint-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/errors/eager-loading-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/errors/empty-result-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/errors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/errors/instance-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/errors/optimistic-lock-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/errors/query-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/errors/sequelize-scope-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/errors/validation-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/errors/validation/unique-constraint-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/index-hints.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/instance-validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/instance-validator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/model-manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/model-manager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/operators.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/promise.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/promise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/query-interface.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/query-interface.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/query-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/query-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/sequelize.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/sequelize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/sql-string.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/sql-string.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/table-hints.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/transaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/transaction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/utils/classToInvokable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/utils/deprecations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/utils/logger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/utils/validator-extras.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/lib/utils/validator-extras.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/node_modules/debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/node_modules/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/node_modules/debug/dist/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/node_modules/debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/node_modules/debug/src/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/node_modules/debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/node_modules/debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/associations/base.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/associations/belongs-to-many.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/associations/belongs-to.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/associations/has-many.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/associations/has-one.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/associations/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/connection-manager.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/data-types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/deferrable.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/errors.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/hooks.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/index-hints.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/instance-validator.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/model-manager.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/model.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/operators.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/promise.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/query-interface.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/query-types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/sequelize.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/sql-string.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/table-hints.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/transaction.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/utils.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/utils/logger.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/types/lib/utils/validator-extras.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/alpha.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/alpha.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/blacklist.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/blacklist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/contains.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/contains.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/equals.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/equals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/escape.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/escape.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isAfter.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isAfter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isAlpha.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isAlpha.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isAlphanumeric.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isAlphanumeric.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isAscii.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isAscii.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isBase64.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isBase64.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isBefore.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isBefore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isBoolean.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isBoolean.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isByteLength.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isByteLength.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isCreditCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isCreditCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isCurrency.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isCurrency.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isDataURI.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isDataURI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isDecimal.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isDecimal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isDivisibleBy.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isDivisibleBy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isEmail.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isEmail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isEmpty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isFQDN.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isFQDN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isFloat.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isFloat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isFullWidth.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isFullWidth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isHalfWidth.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isHalfWidth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isHash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isHexColor.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isHexColor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isHexadecimal.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isHexadecimal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isIP.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isIP.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isIPRange.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isISBN.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isISBN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isISIN.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isISIN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isISO31661Alpha2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isISO31661Alpha3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isISO8601.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isISO8601.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isISRC.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isISSN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isIdentityCard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isInt.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isInt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isJSON.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isJSON.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isJWT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isLatLong.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isLength.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isLength.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isLowercase.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isLowercase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isMACAddress.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isMACAddress.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isMD5.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isMD5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isMagnetURI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isMimeType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isMobilePhone.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isMobilePhone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isMongoId.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isMongoId.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isMultibyte.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isMultibyte.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isNumeric.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isNumeric.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isPort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isPostalCode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isRFC3339.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isSurrogatePair.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isSurrogatePair.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isURL.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isURL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isUUID.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isUUID.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isUppercase.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isUppercase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isVariableWidth.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isVariableWidth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isWhitelisted.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/isWhitelisted.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/ltrim.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/ltrim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/matches.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/matches.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/normalizeEmail.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/normalizeEmail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/rtrim.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/rtrim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/stripLow.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/stripLow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/toBoolean.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/toBoolean.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/toDate.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/toDate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/toFloat.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/toFloat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/toInt.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/toInt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/trim.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/trim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/unescape.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/unescape.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/util/assertString.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/util/assertString.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/util/includes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/util/merge.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/util/merge.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/util/toString.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/util/toString.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/whitelist.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/lib/whitelist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/validator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/validator.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/validator/validator.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/dist/wkx.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/dist/wkx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/dist/wkx.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/dist/wkx.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/lib/geometry.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/lib/geometry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/lib/geometrycollection.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/lib/geometrycollection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/lib/linestring.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/lib/linestring.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/lib/multilinestring.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/lib/multilinestring.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/lib/multipoint.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/lib/multipoint.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/lib/multipolygon.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/lib/multipolygon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/lib/point.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/lib/point.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/lib/polygon.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/lib/polygon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/lib/wktparser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/lib/wktparser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/lib/wkx.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/wkx/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/routes/photosCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/routes/photosCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/routes/productCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/routes/productCtrl.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/shop.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/shop.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +468,10 @@
       <workItem from="1573896705278" duration="2882000" />
       <workItem from="1573917377838" duration="2533000" />
       <workItem from="1573984561761" duration="2888000" />
-      <workItem from="1574063660205" duration="539000" />
+      <workItem from="1574063660205" duration="2650000" />
+      <workItem from="1574071642280" duration="273000" />
+      <workItem from="1574072476438" duration="663000" />
+      <workItem from="1574096544112" duration="265000" />
     </task>
     <servers />
   </component>
