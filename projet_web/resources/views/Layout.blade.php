@@ -63,13 +63,7 @@
         <i class="fab fa-twitter"></i>
       </a>
       <a class="btnn" href="#">
-        <i class="fab fa-google"></i>
-      </a>
-      <a class="btnn" href="#">
         <i class="fab fa-instagram"></i>
-      </a>
-      <a class="btnn" href="#">
-        <i class="fab fa-youtube"></i>
       </a>
       <li><a class="mention_legal" href="/legalmention">mention legal</a></li>
       <li><a class="contact" href="/contact">contact</a></li>
