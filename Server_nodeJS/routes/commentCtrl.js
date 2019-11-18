@@ -77,7 +77,6 @@ module.exports = {
                 res.status(404).json({"error": "no comment found"})
             }
         }).catch(function (err) {
-            console.log(err);
             res.status(500).json({"error": "invalid fields"})
         })
     }

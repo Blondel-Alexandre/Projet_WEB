@@ -20,9 +20,7 @@ module.exports = {
     },
     getUserId: function(authorization) {
         var userId = -1;
-        //console.log(jwtToken.userId);
         var token = module.exports.parseAuthorization(authorization);
-        //console.log(token, ": je suis le token");
         if(token != null) {
             try {
                 var jwtToken = jwt.verify(token, JWT_SIGN_SECRET);

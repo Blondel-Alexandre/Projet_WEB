@@ -55,6 +55,7 @@
   </div>
 
   <div class="middle">
+
       <a class="btnn" href="#">
         <i class="fab fa-facebook-f"></i>
       </a>
@@ -73,8 +74,6 @@
       <li><a class="mention_legal" href="/legalmention">mention legal</a></li>
       <li><a class="contact" href="/contact">contact</a></li>
  
-      
-      
   </div>
 
 
