@@ -12,30 +12,17 @@
         
     <a class="btn btn-secondary" href="/shopInput" role="button">Ajouter un produit</a>
 
-    <div id="vente">
-        <p><a class="motcle" href="/link1shop"> vente 1 </a>
-        <br> 
-        <span class="desc">Premier produit</span> 
-        </p>
-    </div>
-    <hr>
-    <div id="vente">
-        <p><a class="motcle" href="link1shop2"> vente 2 </a>
-        <br>
-        <span class="desc">Deuxieme produit</span> </p>
-    </div>
-    <hr>
-    <div id="vente">
-        <p><a class="motcle" href="link1shop3"> vente 3 </a>
-        <br> 
-        <span class="desc">Troisieme produit</span> </p>
-    </div>
-    <hr>
-    <div id="vente">
-        <p><a class="motcle" href="link1shop4"> vente 4 </a>
-        <br>
-        <span class="desc">Quatrieme produit</span> </p>
-    </div>
+        @foreach($data as $dataview)
+
+            <div id="vente">
+                <img src="pictures/boutique.jpg" />
+                <p><a class="motcle" href="/link1shop"> {{$dataview['name']}} </a></br> <span class="desc">{{$dataview['description']}}</span> </p>
+                <p></p>
+            </div>
+            <hr>
+
+        @endforeach>
+
 
 
 @endsection

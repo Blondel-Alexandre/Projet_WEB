@@ -31,9 +31,7 @@ Route::get('/signup', function () {
     return view('signup');
 });
 
-Route::get('/shop', function () {
-    return view('shop');
-});
+Route::get('/shop', 'getproduct@ajoutproduit');
 
 Route::get('/legalmention', function () {
     return view('legalmention');

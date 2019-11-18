@@ -57,7 +57,7 @@ module.exports = {
 
 
     },
-    listPhoto: function (req, res) {
+    listPhoto : function (req, res) {
         var fields = req.query.fields;
         var limit = parseInt(req.query.limit);
         var offset = parseInt(req.query.offset);
