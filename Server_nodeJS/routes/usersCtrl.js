@@ -64,22 +64,22 @@ module.exports = {
         if (email == null ||  password == null){
             return res.status(400).json({ 'error': 'missing parameters'})            
         }
-
+        
         models.users.findOne({
             where: { email: email}
         })
         .then(function  (userFound){
             if(userFound){  
-                console.log(userFound.password);
+                //console.log(userFound, "userFounded skjdsq");
                     if(password == userFound.password){
                         return res.status(200).json({
                             'userId': userFound.id,
                             'token': jwtUtils.generateTokenForUser(userFound)
-                        });console.log(jwtUtils.generateTokenForUser(userFound), "userfound");
+                        });//console.log(jwtUtils.generateTokenForUser(userFound), "userfound");
                     }else{
                         return res.status(403).json({ 'error': 'invalid password'})
                     }}else{
-                return res.status(403).json({ 'erroe': 'user doesn\'exist'});
+                return res.status(403).json({ 'erroe': 'user doesn\'t exist'});
             }
         })
         .catch(function(err){
@@ -91,17 +91,23 @@ module.exports = {
         // Getting auth header
         var headerAuth = req.headers['authorization'];
         var userId = jwtUtils.getUserId(headerAuth);
-        console.log(userId);
 
         /*if (userId < 0)
-            return res.status(400).json({ 'error': 'wrong token' });*/
-
+            return res.status(400).json({ 'error': 'wrong token' });
+            console.log( models.users.findOne({
+                where: { id: userId}
+            }), "qidqqqbfibifSIOUBUBDBSFSUBSIUB");*/
+        //console.log(id,"je suis l'id");
+        console.log(userId, "je suis l'userId");
+    
         models.users.findOne({
-            attributes: [ 'id', 'name', 'firstname', 'email'],
+            attributes: [ 'id', 'name', 'first_name', 'email'],
             where: { id: userId }
-        }).then(function(user) {
-            if (user) {
-                res.status(200).json(user);
+            //c'est la que ca fonctionne pas !            
+        }).then(function(users) {
+            console.log(users, 'coucoujqdkj');
+            if (users) {
+                res.status(200).json(users);
             } else {
                 res.status(404).json({ 'error': 'user not found' });
             }

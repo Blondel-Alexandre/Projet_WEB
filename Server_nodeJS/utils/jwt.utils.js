@@ -15,15 +15,15 @@ module.exports = {
             })
     },
     parseAuthorization: function(authorization) {
+        //on supprime Bearer pour recuperer uniquement le token (bearer est une norme W3C)
         return (authorization != null) ? authorization.replace('Bearer ', '') : null;
     },
     getUserId: function(authorization) {
         var userId = -1;
         //console.log(jwtToken.userId);
-        console.log(token, "token");
         var token = module.exports.parseAuthorization(authorization);
+        //console.log(token, ": je suis le token");
         if(token != null) {
-            console.log("coucou");
             try {
                 var jwtToken = jwt.verify(token, JWT_SIGN_SECRET);
                 console.log(jwtToken.userId,"jwt");
