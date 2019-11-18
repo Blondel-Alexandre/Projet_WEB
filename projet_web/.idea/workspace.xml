@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b1c35ac7-8484-4946-83cf-92287233e434" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Server_nodeJS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/apiRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/apiRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/routes/activitiesCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/routes/activitiesCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/routes/commentCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/routes/commentCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/routes/photosCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/routes/photosCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/routes/productCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/routes/productCtrl.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,6 +83,7 @@
       <workItem from="1573896705278" duration="2882000" />
       <workItem from="1573917377838" duration="2533000" />
       <workItem from="1573984561761" duration="2888000" />
+      <workItem from="1574063660205" duration="539000" />
     </task>
     <servers />
   </component>

@@ -55,7 +55,7 @@ Route::get('/cgv', function () {
     return view('cgv');
 });
 
-Route::get('/event/inputEvent', function () {
+Route::get('/inputEvent', function () {
     return view('inputEvent');
 });
 
