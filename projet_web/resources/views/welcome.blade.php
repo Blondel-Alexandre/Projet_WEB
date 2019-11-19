@@ -3,17 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, init-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link href="{{asset('css/styleWelcome.css')}}" rel="stylesheet" />
+    <link href="{{asset('css/welcome.css')}}" rel="stylesheet" />
     <title>site bde</title>
-</head>
 
-@section('contenu')
-
-    <head>
-        <title>Cookie</title>
-
-        <script type="text/javascript">
+    <script type="text/javascript">
 
             function testConfirmCookie()  {
 
@@ -28,17 +21,15 @@
             }
 
         </script>
+</head>
 
-    </head>
+@section('contenu')
+
     <body>
     <h2>Confirmation Cookie</h2>
 
     <button onclick="testConfirmCookie()">Click me!</button>
 
-    </body>
-    </html>
-
-    <body>
     <div id="slider">
         <figure>
         <img src="pictures/event1.png" width="626" height="469" class="responsive" />

@@ -47,7 +47,11 @@
 <main>
 
     @yield('contenu')
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> bf76a5626fbee230b82049aafc58e694dd79603f
 </main>
 
 <footer class="footer">
@@ -56,13 +60,18 @@
   </div>
 
   <div class="middle">
+<<<<<<< HEAD
       <a class="btnn" href="https://www.facebook.com/Cesi.Arras.BDE/">
+=======
+      <a class="btnn" href="#">
+>>>>>>> bf76a5626fbee230b82049aafc58e694dd79603f
         <i class="fab fa-facebook-f"></i>
       </a>
       <a class="btnn" href="https://twitter.com/BDE_Exia_Arras">
         <i class="fab fa-twitter"></i>
       </a>
       <a class="btnn" href="#">
+<<<<<<< HEAD
         <i class="fab fa-google"></i>
       </a>
       <a class="btnn" href="https://www.instagram.com/campus_cesi/?hl=fr">
@@ -76,6 +85,15 @@
 
 
 
+=======
+        <i class="fab fa-instagram"></i>
+      </a>
+      <li><a class="mention_legal" href="/legalmention">mention legal</a></li>
+      <li><a class="contact" href="/contact">contact</a></li>
+ 
+      
+      
+>>>>>>> bf76a5626fbee230b82049aafc58e694dd79603f
   </div>
 
 

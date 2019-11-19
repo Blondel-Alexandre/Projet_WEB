@@ -9,7 +9,11 @@
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
             <a class="backet" href="backet" ><i class="fas fa-shopping-basket"></i></a>
         </div>
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> bf76a5626fbee230b82049aafc58e694dd79603f
     <a class="btn btn-secondary" href="/shopInput" role="button">Ajouter un produit</a>
 
         @foreach($data as $dataview)
@@ -25,4 +29,8 @@
 
 
 
+<<<<<<< HEAD
 @endsection
+=======
+@endsection
+>>>>>>> bf76a5626fbee230b82049aafc58e694dd79603f
