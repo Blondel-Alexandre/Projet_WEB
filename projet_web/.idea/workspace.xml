@@ -2,45 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1c35ac7-8484-4946-83cf-92287233e434" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../[" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../[tpproducts_category]," afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../[tpproducts_description]," afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../[tpproducts_email]" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../[tpproducts_name]," afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../[tpproducts_price]," afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server_nodeJS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/bcrypt/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/bcrypt/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/bcrypt/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/bcrypt/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/bcrypt/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/bcrypt/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/bcrypt/appveyor.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/bcrypt/appveyor.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/bcrypt/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/bcrypt/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/nan/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/nan/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/nan/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/nan/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/nan/doc/asyncworker.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/nan/doc/asyncworker.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/nan/nan.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/nan/nan.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/nan/nan_implementation_12_inl.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/nan/nan_implementation_12_inl.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/nan/nan_maybe_43_inl.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/nan/nan_maybe_43_inl.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/nan/nan_maybe_pre_43_inl.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/nan/nan_maybe_pre_43_inl.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/nan/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/nan/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/node-pre-gyp/lib/util/abi_crosswalk.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/node-pre-gyp/lib/util/abi_crosswalk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/node-pre-gyp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/node-pre-gyp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/node_modules/sequelize/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/routes/activitiesCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/routes/activitiesCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/routes/commentCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/routes/commentCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/routes/photosCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/routes/photosCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server_nodeJS/routes/productCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Server_nodeJS/routes/productCtrl.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/addComment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/addComment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/addEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/addEvent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/addPhoto.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/addPhoto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/addProduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/addProduct.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/getproduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/getproduct.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/boutique.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/boutique.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/shop.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/shop.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/shopInput.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/shopInput.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +87,8 @@
       <workItem from="1574071642280" duration="273000" />
       <workItem from="1574072476438" duration="663000" />
       <workItem from="1574096544112" duration="3152000" />
-      <workItem from="1574107958095" duration="2431000" />
+      <workItem from="1574107958095" duration="2562000" />
+      <workItem from="1574147210656" duration="715000" />
     </task>
     <servers />
   </component>
